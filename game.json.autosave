@@ -2155,6 +2155,24 @@
         "name": "Hospital1_BG-1-1-1.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Metal_case.JPG",
+        "kind": "image",
+        "metadata": "",
+        "name": "Metal_case.JPG",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Metal_case-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Metal_case-1.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -10966,7 +10984,7 @@
         "gridWidth": 64,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.186
+        "zoomFactor": 0.586
       },
       "objectsGroups": [],
       "variables": [
@@ -11245,7 +11263,7 @@
           "name": "Luva",
           "persistentUuid": "df66f426-2ca1-4ef0-b830-99108719be60",
           "width": 0,
-          "x": -1088,
+          "x": -1472,
           "y": 192,
           "zOrder": 18,
           "numberProperties": [],
@@ -12153,7 +12171,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Boy",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -17616,7 +17634,7 @@
         "gridWidth": 64,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.328
+        "zoomFactor": 0.528
       },
       "objectsGroups": [],
       "variables": [
@@ -17850,10 +17868,10 @@
           "variables": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ]
@@ -17868,10 +17886,10 @@
           "variables": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ]
@@ -18650,7 +18668,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": false,
+        "grid": true,
         "gridB": 255,
         "gridG": 180,
         "gridHeight": 64,
@@ -18658,9 +18676,9 @@
         "gridOffsetY": 0,
         "gridR": 158,
         "gridWidth": 64,
-        "snap": false,
+        "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.844
+        "zoomFactor": 0.5
       },
       "objectsGroups": [],
       "variables": [
@@ -18733,6 +18751,38 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Plat1",
+          "persistentUuid": "ee3c4b67-b207-4c82-9c5b-76e9653d01a3",
+          "width": 128,
+          "x": 640,
+          "y": 832,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Plat1",
+          "persistentUuid": "6d30df27-3bc3-4a79-96f4-002461ee8df6",
+          "width": 512,
+          "x": 960,
+          "y": 576,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -18746,10 +18796,10 @@
           "variables": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ]
@@ -18761,6 +18811,34 @@
           "texture": "Hospital1_BG-1-1-1.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 128,
+          "variables": [],
+          "behaviors": []
+        },
+        {
+          "height": 64,
+          "name": "Plat1",
+          "tags": "",
+          "texture": "Metal_case-1.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 64,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "height": 32,
+          "name": "NewObject",
+          "tags": "",
+          "texture": "",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
           "variables": [],
           "behaviors": []
         }
@@ -19975,7 +20053,7 @@
           "effects": []
         },
         {
-          "ambientLightColorB": 1702453580,
+          "ambientLightColorB": 1702453632,
           "ambientLightColorG": 10013920,
           "ambientLightColorR": 3,
           "followBaseLayerCamera": false,
