@@ -2119,6 +2119,42 @@
         "name": "DirtRock.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Hospital1_BG.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Hospital1_BG.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Hospital1_BG-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Hospital1_BG-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Hospital1_BG-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Hospital1_BG-1-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Hospital1_BG-1-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Hospital1_BG-1-1-1.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -18617,14 +18653,14 @@
         "grid": false,
         "gridB": 255,
         "gridG": 180,
-        "gridHeight": 32,
+        "gridHeight": 64,
         "gridOffsetX": 0,
         "gridOffsetY": 0,
         "gridR": 158,
-        "gridWidth": 32,
+        "gridWidth": 64,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.62
+        "zoomFactor": 1.068
       },
       "objectsGroups": [],
       "variables": [
@@ -18634,22 +18670,6 @@
         }
       ],
       "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 960,
-          "layer": "",
-          "locked": false,
-          "name": "Hospital_BG",
-          "persistentUuid": "cc2f5cab-8fb9-4e8f-8674-14598cfd8e73",
-          "width": 6528,
-          "x": 0,
-          "y": 0,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 0,
           "customSize": true,
@@ -18669,15 +18689,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 225,
+          "height": 960,
           "layer": "",
           "locked": false,
-          "name": "PlayerBoy",
-          "persistentUuid": "156a9004-f5b3-4326-9ab7-8e9254649bec",
-          "width": 288,
-          "x": 256,
-          "y": 416,
-          "zOrder": 11,
+          "name": "Hospital1_BG",
+          "persistentUuid": "0a911bc5-45b4-467e-8602-4b6505864c74",
+          "width": 6528,
+          "x": 0,
+          "y": 0,
+          "zOrder": 24,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -18689,27 +18709,33 @@
           "layer": "",
           "locked": false,
           "name": "PlayerGirl",
-          "persistentUuid": "2e0df8be-151c-46fc-972b-2b1f0e14075d",
+          "persistentUuid": "36769104-4d72-4aa9-b76a-10b1fbe153e4",
           "width": 192,
-          "x": 160,
-          "y": 224,
-          "zOrder": 20,
+          "x": 269,
+          "y": 127,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 240,
+          "layer": "",
+          "locked": false,
+          "name": "PlayerBoy",
+          "persistentUuid": "fcd0ef70-5e9c-49b6-a23b-b33e903b81b0",
+          "width": 327,
+          "x": 378,
+          "y": 326,
+          "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         }
       ],
       "objects": [
-        {
-          "height": 128,
-          "name": "Hospital_BG",
-          "tags": "",
-          "texture": "Hospital2_BG-1-0.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 128,
-          "variables": [],
-          "behaviors": []
-        },
         {
           "height": 64,
           "name": "Plat_main",
@@ -18727,6 +18753,16 @@
               "yGrabOffset": 0
             }
           ]
+        },
+        {
+          "height": 128,
+          "name": "Hospital1_BG",
+          "tags": "",
+          "texture": "Hospital1_BG-1-1-1.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 128,
+          "variables": [],
+          "behaviors": []
         }
       ],
       "events": [
@@ -19936,6 +19972,17 @@
               "width": 0
             }
           ],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 1702453580,
+          "ambientLightColorG": 10013920,
+          "ambientLightColorR": 3,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Layer1",
+          "visibility": true,
+          "cameras": [],
           "effects": []
         }
       ],
