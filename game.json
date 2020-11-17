@@ -11431,6 +11431,563 @@
         "g": 227,
         "r": 80
       }
+    },
+    {
+      "name": "Mask",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "mask",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "mask-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "mask-2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "mask-3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Luva",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.3,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "right-glove.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "left-glove.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Alcool_Gel",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "I_alcool",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "I_alcool-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 207,
+                        "y": 34.5
+                      },
+                      {
+                        "x": 385,
+                        "y": 46.5
+                      },
+                      {
+                        "x": 389,
+                        "y": 545.5
+                      },
+                      {
+                        "x": 189,
+                        "y": 544.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "I_alcool-2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 207,
+                        "y": 34.5
+                      },
+                      {
+                        "x": 385,
+                        "y": 46.5
+                      },
+                      {
+                        "x": 389,
+                        "y": 545.5
+                      },
+                      {
+                        "x": 189,
+                        "y": 544.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "I_alcool-3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 207,
+                        "y": 34.5
+                      },
+                      {
+                        "x": 385,
+                        "y": 46.5
+                      },
+                      {
+                        "x": 389,
+                        "y": 545.5
+                      },
+                      {
+                        "x": 189,
+                        "y": 544.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "I_alcool-4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 207,
+                        "y": 34.5
+                      },
+                      {
+                        "x": 385,
+                        "y": 46.5
+                      },
+                      {
+                        "x": 389,
+                        "y": 545.5
+                      },
+                      {
+                        "x": 189,
+                        "y": 544.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Virus",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Spin",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.15,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Spin-1-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 194.5,
+                        "y": 112.5
+                      },
+                      {
+                        "x": 173.5,
+                        "y": 154.5
+                      },
+                      {
+                        "x": 145.5,
+                        "y": 183
+                      },
+                      {
+                        "x": 102.5,
+                        "y": 191
+                      },
+                      {
+                        "x": 50.5,
+                        "y": 166
+                      },
+                      {
+                        "x": 29.5,
+                        "y": 111.5
+                      },
+                      {
+                        "x": 59.5,
+                        "y": 75
+                      },
+                      {
+                        "x": 94.5,
+                        "y": 43.5
+                      },
+                      {
+                        "x": 144.5,
+                        "y": 36.5
+                      },
+                      {
+                        "x": 172.5,
+                        "y": 71.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Spin-2-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 194.5,
+                        "y": 112.5
+                      },
+                      {
+                        "x": 173.5,
+                        "y": 154.5
+                      },
+                      {
+                        "x": 145.5,
+                        "y": 183
+                      },
+                      {
+                        "x": 102.5,
+                        "y": 191
+                      },
+                      {
+                        "x": 50.5,
+                        "y": 166
+                      },
+                      {
+                        "x": 29.5,
+                        "y": 111.5
+                      },
+                      {
+                        "x": 59.5,
+                        "y": 75
+                      },
+                      {
+                        "x": 94.5,
+                        "y": 43.5
+                      },
+                      {
+                        "x": 144.5,
+                        "y": 36.5
+                      },
+                      {
+                        "x": 172.5,
+                        "y": 71.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Spin-3-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 194.5,
+                        "y": 112.5
+                      },
+                      {
+                        "x": 173.5,
+                        "y": 154.5
+                      },
+                      {
+                        "x": 145.5,
+                        "y": 183
+                      },
+                      {
+                        "x": 102.5,
+                        "y": 191
+                      },
+                      {
+                        "x": 50.5,
+                        "y": 166
+                      },
+                      {
+                        "x": 29.5,
+                        "y": 111.5
+                      },
+                      {
+                        "x": 59.5,
+                        "y": 75
+                      },
+                      {
+                        "x": 94.5,
+                        "y": 43.5
+                      },
+                      {
+                        "x": 144.5,
+                        "y": 36.5
+                      },
+                      {
+                        "x": 172.5,
+                        "y": 71.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Spin-4-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 194.5,
+                        "y": 112.5
+                      },
+                      {
+                        "x": 173.5,
+                        "y": 154.5
+                      },
+                      {
+                        "x": 145.5,
+                        "y": 183
+                      },
+                      {
+                        "x": 102.5,
+                        "y": 191
+                      },
+                      {
+                        "x": 50.5,
+                        "y": 166
+                      },
+                      {
+                        "x": 29.5,
+                        "y": 111.5
+                      },
+                      {
+                        "x": 59.5,
+                        "y": 75
+                      },
+                      {
+                        "x": 94.5,
+                        "y": 43.5
+                      },
+                      {
+                        "x": 144.5,
+                        "y": 36.5
+                      },
+                      {
+                        "x": 172.5,
+                        "y": 71.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsGroups": [],
@@ -12700,563 +13257,6 @@
               "canBeGrabbed": true,
               "platformType": "NormalPlatform",
               "yGrabOffset": 0
-            }
-          ]
-        },
-        {
-          "name": "Virus",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "Spin",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.15,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Spin-1-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 194.5,
-                            "y": 112.5
-                          },
-                          {
-                            "x": 173.5,
-                            "y": 154.5
-                          },
-                          {
-                            "x": 145.5,
-                            "y": 183
-                          },
-                          {
-                            "x": 102.5,
-                            "y": 191
-                          },
-                          {
-                            "x": 50.5,
-                            "y": 166
-                          },
-                          {
-                            "x": 29.5,
-                            "y": 111.5
-                          },
-                          {
-                            "x": 59.5,
-                            "y": 75
-                          },
-                          {
-                            "x": 94.5,
-                            "y": 43.5
-                          },
-                          {
-                            "x": 144.5,
-                            "y": 36.5
-                          },
-                          {
-                            "x": 172.5,
-                            "y": 71.5
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Spin-2-0.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 194.5,
-                            "y": 112.5
-                          },
-                          {
-                            "x": 173.5,
-                            "y": 154.5
-                          },
-                          {
-                            "x": 145.5,
-                            "y": 183
-                          },
-                          {
-                            "x": 102.5,
-                            "y": 191
-                          },
-                          {
-                            "x": 50.5,
-                            "y": 166
-                          },
-                          {
-                            "x": 29.5,
-                            "y": 111.5
-                          },
-                          {
-                            "x": 59.5,
-                            "y": 75
-                          },
-                          {
-                            "x": 94.5,
-                            "y": 43.5
-                          },
-                          {
-                            "x": 144.5,
-                            "y": 36.5
-                          },
-                          {
-                            "x": 172.5,
-                            "y": 71.5
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Spin-3-0.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 194.5,
-                            "y": 112.5
-                          },
-                          {
-                            "x": 173.5,
-                            "y": 154.5
-                          },
-                          {
-                            "x": 145.5,
-                            "y": 183
-                          },
-                          {
-                            "x": 102.5,
-                            "y": 191
-                          },
-                          {
-                            "x": 50.5,
-                            "y": 166
-                          },
-                          {
-                            "x": 29.5,
-                            "y": 111.5
-                          },
-                          {
-                            "x": 59.5,
-                            "y": 75
-                          },
-                          {
-                            "x": 94.5,
-                            "y": 43.5
-                          },
-                          {
-                            "x": 144.5,
-                            "y": 36.5
-                          },
-                          {
-                            "x": 172.5,
-                            "y": 71.5
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Spin-4-0.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 194.5,
-                            "y": 112.5
-                          },
-                          {
-                            "x": 173.5,
-                            "y": 154.5
-                          },
-                          {
-                            "x": 145.5,
-                            "y": 183
-                          },
-                          {
-                            "x": 102.5,
-                            "y": 191
-                          },
-                          {
-                            "x": 50.5,
-                            "y": 166
-                          },
-                          {
-                            "x": 29.5,
-                            "y": 111.5
-                          },
-                          {
-                            "x": 59.5,
-                            "y": 75
-                          },
-                          {
-                            "x": 94.5,
-                            "y": 43.5
-                          },
-                          {
-                            "x": 144.5,
-                            "y": 36.5
-                          },
-                          {
-                            "x": 172.5,
-                            "y": 71.5
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Alcool_Gel",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "I_alcool",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "I_alcool-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 207,
-                            "y": 34.5
-                          },
-                          {
-                            "x": 385,
-                            "y": 46.5
-                          },
-                          {
-                            "x": 389,
-                            "y": 545.5
-                          },
-                          {
-                            "x": 189,
-                            "y": 544.5
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "I_alcool-2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 207,
-                            "y": 34.5
-                          },
-                          {
-                            "x": 385,
-                            "y": 46.5
-                          },
-                          {
-                            "x": 389,
-                            "y": 545.5
-                          },
-                          {
-                            "x": 189,
-                            "y": 544.5
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "I_alcool-3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 207,
-                            "y": 34.5
-                          },
-                          {
-                            "x": 385,
-                            "y": 46.5
-                          },
-                          {
-                            "x": 389,
-                            "y": 545.5
-                          },
-                          {
-                            "x": 189,
-                            "y": 544.5
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "I_alcool-4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 207,
-                            "y": 34.5
-                          },
-                          {
-                            "x": 385,
-                            "y": 46.5
-                          },
-                          {
-                            "x": 389,
-                            "y": 545.5
-                          },
-                          {
-                            "x": 189,
-                            "y": 544.5
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Luva",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.3,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "right-glove.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "left-glove.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Mask",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "mask",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.1,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "mask-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "mask-2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "mask-3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
             }
           ]
         },
@@ -21685,7 +21685,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": false,
+        "grid": true,
         "gridB": 255,
         "gridG": 180,
         "gridHeight": 64,
@@ -21693,7 +21693,7 @@
         "gridOffsetY": 0,
         "gridR": 158,
         "gridWidth": 64,
-        "snap": false,
+        "snap": true,
         "windowMask": false,
         "zoomFactor": 0.5414
       },
@@ -22104,7 +22104,7 @@
           "width": 1792,
           "x": 2816,
           "y": 0,
-          "zOrder": 49,
+          "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -22201,6 +22201,70 @@
           "x": 139,
           "y": 74,
           "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "Mask",
+          "persistentUuid": "24366f28-ccd9-4729-87f3-f70dda3db4df",
+          "width": 128,
+          "x": 2496,
+          "y": 320,
+          "zOrder": 50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Alcool_Gel",
+          "persistentUuid": "b18af536-8208-4a7f-9bdd-c6eccba5389d",
+          "width": 128,
+          "x": 3904,
+          "y": 64,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Luva",
+          "persistentUuid": "ae719420-9e4f-445d-b786-6c83912ef997",
+          "width": 0,
+          "x": 5184,
+          "y": 704,
+          "zOrder": 52,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Alcool_Gel",
+          "persistentUuid": "96b1757c-d84e-4f32-9530-403b2dcc0ab0",
+          "width": 128,
+          "x": 5760,
+          "y": 128,
+          "zOrder": 53,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -22971,7 +23035,7 @@
                           "parameters": [
                             "Health",
                             "-",
-                            "0.1"
+                            "0.3"
                           ],
                           "subInstructions": []
                         }
@@ -23005,7 +23069,7 @@
                           "parameters": [
                             "Hygiene",
                             "-",
-                            "0.1"
+                            "0.3"
                           ],
                           "subInstructions": []
                         }
