@@ -2353,6 +2353,114 @@
         "name": "Hygienebar-1.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Secret_BG.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Secret_BG.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Secret_BG-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Secret_BG-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-1-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1-8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Trigger_left-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Trigger_left-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-1-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1-9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Trigger_up-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Trigger_up-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Trigger_down-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Trigger_down-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Virus_red.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Virus_red.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Virus_red-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Virus_red-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Virus_red-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Virus_red-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Virus_red-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Virus_red-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Virus_red-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Virus_red-4.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -6780,14 +6888,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 134,
-                    "y": 516.5
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 131,
-                    "y": 357.5
+                    "x": 0,
+                    "y": 0
                   },
                   "customCollisionMask": [
                     [
@@ -6856,14 +6964,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 134,
-                    "y": 516.5
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 131,
-                    "y": 357.5
+                    "x": 0,
+                    "y": 0
                   },
                   "customCollisionMask": [
                     [
@@ -6932,14 +7040,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 134,
-                    "y": 516.5
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 131,
-                    "y": 357.5
+                    "x": 0,
+                    "y": 0
                   },
                   "customCollisionMask": [
                     [
@@ -7008,14 +7116,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 134,
-                    "y": 516.5
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 131,
-                    "y": 357.5
+                    "x": 0,
+                    "y": 0
                   },
                   "customCollisionMask": [
                     [
@@ -7084,14 +7192,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 134,
-                    "y": 516.5
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 131,
-                    "y": 357.5
+                    "x": 0,
+                    "y": 0
                   },
                   "customCollisionMask": [
                     [
@@ -7160,14 +7268,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 134,
-                    "y": 516.5
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 131,
-                    "y": 357.5
+                    "x": 0,
+                    "y": 0
                   },
                   "customCollisionMask": [
                     [
@@ -7236,14 +7344,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 134,
-                    "y": 516.5
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 131,
-                    "y": 357.5
+                    "x": 0,
+                    "y": 0
                   },
                   "customCollisionMask": [
                     [
@@ -7312,14 +7420,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 134,
-                    "y": 516.5
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 131,
-                    "y": 357.5
+                    "x": 0,
+                    "y": 0
                   },
                   "customCollisionMask": [
                     [
@@ -7388,14 +7496,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 134,
-                    "y": 516.5
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 131,
-                    "y": 357.5
+                    "x": 0,
+                    "y": 0
                   },
                   "customCollisionMask": [
                     [
@@ -7464,14 +7572,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 134,
-                    "y": 516.5
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 131,
-                    "y": 357.5
+                    "x": 0,
+                    "y": 0
                   },
                   "customCollisionMask": [
                     [
@@ -7540,14 +7648,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 134,
-                    "y": 516.5
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 131,
-                    "y": 357.5
+                    "x": 0,
+                    "y": 0
                   },
                   "customCollisionMask": [
                     [
@@ -7616,14 +7724,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 134,
-                    "y": 516.5
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 131,
-                    "y": 357.5
+                    "x": 0,
+                    "y": 0
                   },
                   "customCollisionMask": [
                     [
@@ -7692,14 +7800,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 134,
-                    "y": 516.5
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 131,
-                    "y": 357.5
+                    "x": 0,
+                    "y": 0
                   },
                   "customCollisionMask": [
                     [
@@ -7768,14 +7876,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 134,
-                    "y": 516.5
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 131,
-                    "y": 357.5
+                    "x": 0,
+                    "y": 0
                   },
                   "customCollisionMask": [
                     [
@@ -7844,14 +7952,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 134,
-                    "y": 516.5
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 131,
-                    "y": 357.5
+                    "x": 0,
+                    "y": 0
                   },
                   "customCollisionMask": [
                     [
@@ -11995,6 +12103,10 @@
     {
       "name": "PlayerType",
       "value": "0"
+    },
+    {
+      "name": "Score",
+      "value": "0"
     }
   ],
   "layouts": [
@@ -12022,7 +12134,7 @@
         "gridWidth": 64,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.4226
+        "zoomFactor": 0.5186
       },
       "objectsGroups": [],
       "variables": [
@@ -12048,7 +12160,7 @@
           "locked": false,
           "name": "Park_BG",
           "persistentUuid": "fd471f5c-b8b9-4443-8f3d-e95ca291d83f",
-          "width": 10880,
+          "width": 10304,
           "x": -3200,
           "y": 0,
           "zOrder": 1,
@@ -12080,7 +12192,7 @@
           "locked": false,
           "name": "Plat_main",
           "persistentUuid": "821044f9-0d26-483a-9a24-dff048131fac",
-          "width": 12800,
+          "width": 10880,
           "x": -3776,
           "y": 960,
           "zOrder": 5,
@@ -12187,22 +12299,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 225,
-          "layer": "",
-          "locked": false,
-          "name": "PlayerBoy",
-          "persistentUuid": "a2276bd5-a96a-4250-bc30-ac3c0ab4db6a",
-          "width": 288,
-          "x": -3584,
-          "y": 448,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 128,
           "layer": "",
           "locked": false,
@@ -12267,30 +12363,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 896,
-          "layer": "",
-          "locked": false,
-          "name": "Plat_main",
-          "persistentUuid": "58ce47c0-cdc9-46b8-846f-0ba74bfa6f73",
-          "width": 576,
-          "x": -5376,
-          "y": 192,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 128,
           "layer": "",
           "locked": false,
           "name": "Alcool_Gel",
           "persistentUuid": "90ad83c4-7318-4d97-ae3d-f8acceb15a53",
           "width": 128,
-          "x": 1024,
-          "y": 512,
+          "x": 768,
+          "y": 576,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -12363,29 +12443,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 192,
-          "layer": "",
-          "locked": false,
-          "name": "PlayerGirl",
-          "persistentUuid": "eafb6afd-ffd9-4498-b3f8-7efdc7035b2a",
-          "width": 192,
-          "x": -3712,
-          "y": 256,
-          "zOrder": 20,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 1024,
+          "height": 1152,
           "layer": "",
           "locked": false,
           "name": "Plat_main",
           "persistentUuid": "5f95ec8c-1b1a-4555-9916-1515845b956f",
           "width": 1344,
-          "x": 7680,
+          "x": 7104,
           "y": -64,
           "zOrder": 21,
           "numberProperties": [],
@@ -12401,57 +12465,9 @@
           "name": "Plat_main",
           "persistentUuid": "a01c38f9-7e5b-45ab-b26c-d1598bc91a2d",
           "width": 128,
-          "x": 7552,
+          "x": 6976,
           "y": -128,
           "zOrder": 22,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 128,
-          "layer": "",
-          "locked": false,
-          "name": "Plat_main",
-          "persistentUuid": "8ab5f091-5684-4d18-989c-0bce23cdf0ef",
-          "width": 1664,
-          "x": -7040,
-          "y": 960,
-          "zOrder": 23,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 960,
-          "layer": "",
-          "locked": false,
-          "name": "Plat_main",
-          "persistentUuid": "7abaeed4-94af-450a-aaeb-21f2a3152d5d",
-          "width": 128,
-          "x": -7040,
-          "y": 0,
-          "zOrder": 24,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 128,
-          "layer": "",
-          "locked": false,
-          "name": "Plat_main",
-          "persistentUuid": "3f60e6c0-0290-4109-a62e-215598827b37",
-          "width": 256,
-          "x": -7040,
-          "y": -128,
-          "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -12512,7 +12528,7 @@
           "locked": false,
           "name": "Plat1",
           "persistentUuid": "1e6f70c5-9029-446b-acde-d662fe8f93a1",
-          "width": 512,
+          "width": 448,
           "x": 768,
           "y": 256,
           "zOrder": 29,
@@ -12831,42 +12847,10 @@
           "layer": "",
           "locked": false,
           "name": "Virus",
-          "persistentUuid": "863e1a80-e51c-4807-b25d-e59fa15ab40c",
-          "width": 128,
-          "x": 1310,
-          "y": 791,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 128,
-          "layer": "",
-          "locked": false,
-          "name": "Virus",
           "persistentUuid": "c6a6f4eb-bbc8-4036-81fe-8f1bff81c950",
           "width": 128,
-          "x": 1436,
-          "y": 791,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 128,
-          "layer": "",
-          "locked": false,
-          "name": "Virus",
-          "persistentUuid": "e4e90539-d73e-40d4-9cc3-143270da5666",
-          "width": 128,
-          "x": 1561,
-          "y": 787,
+          "x": 1728,
+          "y": 448,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -13120,7 +13104,7 @@
           "locked": false,
           "name": "Healthbar_Text",
           "persistentUuid": "924a5cb2-87a8-493a-846f-ac70505e7c41",
-          "width": 110,
+          "width": 373,
           "x": 138,
           "y": 75,
           "zOrder": 63,
@@ -13162,13 +13146,13 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 55,
           "layer": "GUI",
           "locked": false,
           "name": "Hygienebar_Text",
           "persistentUuid": "e2ccc746-8e43-4bc7-9cdf-b272d2f8bbb1",
-          "width": 0,
+          "width": 430,
           "x": 138,
           "y": 139,
           "zOrder": 66,
@@ -13188,6 +13172,278 @@
           "x": -551,
           "y": 374,
           "zOrder": 67,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1088,
+          "layer": "",
+          "locked": false,
+          "name": "Secret_BG",
+          "persistentUuid": "8c6c216e-7572-4ccd-9606-65ec909193d1",
+          "width": 1856,
+          "x": -7232,
+          "y": 0,
+          "zOrder": 68,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 896,
+          "layer": "",
+          "locked": false,
+          "name": "Plat_main",
+          "persistentUuid": "340eed61-34c6-4a89-b8b7-c2edf1f253a6",
+          "width": 576,
+          "x": -5376,
+          "y": 192,
+          "zOrder": 69,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Plat_main",
+          "persistentUuid": "96ba5c04-d33b-4020-a1c3-c8208d777b8e",
+          "width": 1856,
+          "x": -7232,
+          "y": 960,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 960,
+          "layer": "",
+          "locked": false,
+          "name": "Plat_main",
+          "persistentUuid": "e97b0f78-5289-4f37-8a36-6def246db126",
+          "width": 128,
+          "x": -7232,
+          "y": 0,
+          "zOrder": 71,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Plat_main",
+          "persistentUuid": "35b94f78-e2af-4383-a1fe-7d64b1755b5b",
+          "width": 192,
+          "x": -7232,
+          "y": -128,
+          "zOrder": 72,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Secret_Text",
+          "persistentUuid": "728c6cc1-71ed-47e7-8471-988e3168dc05",
+          "width": 0,
+          "x": -6848,
+          "y": 64,
+          "zOrder": 73,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 192,
+          "layer": "",
+          "locked": false,
+          "name": "PlayerGirl",
+          "persistentUuid": "1788fd27-ded6-4a11-a9f0-09daa65d37df",
+          "width": 192,
+          "x": -3719,
+          "y": 0,
+          "zOrder": 74,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 231,
+          "layer": "",
+          "locked": false,
+          "name": "PlayerBoy",
+          "persistentUuid": "eb9c406f-a3b1-4650-b424-288c56358e86",
+          "width": 316,
+          "x": -3682,
+          "y": -14,
+          "zOrder": 75,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Trigger_u",
+          "persistentUuid": "eb69f9be-26f8-4555-b1ab-371f93263415",
+          "width": 0,
+          "x": 1216,
+          "y": 320,
+          "zOrder": 77,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Trigger_d",
+          "persistentUuid": "2b3b50a7-3c98-4f76-b526-37a6a2b6978e",
+          "width": 0,
+          "x": 1216,
+          "y": 896,
+          "zOrder": 78,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Trigger_l",
+          "persistentUuid": "3e54d4dc-be65-4ddb-88b4-7af6168ed7b8",
+          "width": 0,
+          "x": 1216,
+          "y": 896,
+          "zOrder": 79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Trigger_r",
+          "persistentUuid": "45429c11-d7cf-46fc-bfee-007f942cf93b",
+          "width": 0,
+          "x": 2048,
+          "y": 896,
+          "zOrder": 80,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Plat_main",
+          "persistentUuid": "b17d4927-1a06-4ac9-8898-077f5bf33c21",
+          "width": 128,
+          "x": 1152,
+          "y": 832,
+          "zOrder": 81,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Plat1",
+          "persistentUuid": "37f23bdc-b664-400a-b91c-77115cfc549c",
+          "width": 64,
+          "x": 1216,
+          "y": 256,
+          "zOrder": 82,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Plat_main",
+          "persistentUuid": "876ef19a-9e19-47a3-bb9f-042fe71835e4",
+          "width": 128,
+          "x": 2048,
+          "y": 832,
+          "zOrder": 83,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Virus_walker",
+          "persistentUuid": "2eb9b9f4-2ea7-4831-bb52-eabebfb99af8",
+          "width": 128,
+          "x": 1152,
+          "y": 704,
+          "zOrder": 84,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Virus_walker",
+          "persistentUuid": "3c51495d-9c04-408a-95d1-bf114cb4bfa9",
+          "width": 128,
+          "x": 1280,
+          "y": 832,
+          "zOrder": 85,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -13225,12 +13481,12 @@
           "behaviors": []
         },
         {
-          "height": 32,
+          "height": 128,
           "name": "Plat_main",
           "tags": "",
           "texture": "Grass-1-1-1-1-1-1.png",
           "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
+          "width": 128,
           "variables": [],
           "behaviors": [
             {
@@ -13296,6 +13552,286 @@
             "g": 117,
             "r": 65
           }
+        },
+        {
+          "height": 128,
+          "name": "Secret_BG",
+          "tags": "",
+          "texture": "Secret_BG-1.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 128,
+          "variables": [],
+          "behaviors": []
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "Secret_Text",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "You found a wormhole!",
+          "font": "Fun Games.ttf",
+          "characterSize": 100,
+          "color": {
+            "b": 194,
+            "g": 227,
+            "r": 80
+          }
+        },
+        {
+          "name": "Trigger_l",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Trigger_left",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Trigger_left-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Trigger_r",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Trigger_right",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewObject-1-9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Trigger_u",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Trigger_up",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Trigger_up-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Trigger_d",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Trigger_down",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Trigger_down-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Virus_walker",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "Direction",
+              "value": "Up"
+            }
+          ],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Virus_red",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Virus_red-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Virus_red-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Virus_red-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Virus_red-4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -13305,7 +13841,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "GUI",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -13480,20 +14016,62 @@
               ],
               "actions": [],
               "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Healthbar_Text",
+                    "=",
+                    "\"Vida: \"+ToString(round(Variable(Health)))"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Hygienebar_Text",
+                    "=",
+                    "\"Higiene: \"+ToString(round(Variable(Hygiene)))"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
             }
           ],
           "parameters": []
         },
         {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
           "disabled": false,
-          "folded": true,
-          "name": "Boy",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "Health",
+                ">",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
           "events": [
             {
               "colorB": 228,
@@ -13502,29 +14080,20 @@
               "creationTime": 0,
               "disabled": false,
               "folded": false,
-              "name": "Movement",
+              "name": "Boy",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
               "events": [
                 {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
                   "disabled": false,
                   "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "VarScene"
-                      },
-                      "parameters": [
-                        "Health",
-                        ">",
-                        "0"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [],
+                  "name": "Movement",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
                   "events": [
                     {
                       "disabled": false,
@@ -13534,312 +14103,466 @@
                         {
                           "type": {
                             "inverted": false,
-                            "value": "KeyPressed"
+                            "value": "VarScene"
                           },
                           "parameters": [
-                            "",
-                            "Right"
-                          ],
-                          "subInstructions": []
-                        },
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "PlatformBehavior::IsMoving"
-                          },
-                          "parameters": [
-                            "PlayerBoy",
-                            "PlatformerObject"
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "FlipX"
-                          },
-                          "parameters": [
-                            "PlayerBoy",
-                            "no"
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "events": [
-                        {
-                          "disabled": false,
-                          "folded": false,
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "inverted": false,
-                                "value": "PlatformBehavior::IsOnFloor"
-                              },
-                              "parameters": [
-                                "PlayerBoy",
-                                "PlatformerObject"
-                              ],
-                              "subInstructions": []
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "inverted": false,
-                                "value": "ChangeAnimation"
-                              },
-                              "parameters": [
-                                "PlayerBoy",
-                                "=",
-                                "1"
-                              ],
-                              "subInstructions": []
-                            }
-                          ],
-                          "events": []
-                        }
-                      ]
-                    },
-                    {
-                      "disabled": false,
-                      "folded": false,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "KeyPressed"
-                          },
-                          "parameters": [
-                            "",
-                            "Left"
-                          ],
-                          "subInstructions": []
-                        },
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "PlatformBehavior::IsMoving"
-                          },
-                          "parameters": [
-                            "PlayerBoy",
-                            "PlatformerObject"
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "FlipX"
-                          },
-                          "parameters": [
-                            "PlayerBoy",
-                            "yes"
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "events": [
-                        {
-                          "disabled": false,
-                          "folded": false,
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "inverted": false,
-                                "value": "PlatformBehavior::IsOnFloor"
-                              },
-                              "parameters": [
-                                "PlayerBoy",
-                                "PlatformerObject"
-                              ],
-                              "subInstructions": []
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "inverted": false,
-                                "value": "ChangeAnimation"
-                              },
-                              "parameters": [
-                                "PlayerBoy",
-                                "=",
-                                "1"
-                              ],
-                              "subInstructions": []
-                            }
-                          ],
-                          "events": []
-                        }
-                      ]
-                    },
-                    {
-                      "disabled": false,
-                      "folded": false,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "PlatformBehavior::IsMoving"
-                          },
-                          "parameters": [
-                            "PlayerBoy",
-                            "PlatformerObject"
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "ChangeAnimation"
-                          },
-                          "parameters": [
-                            "PlayerBoy",
-                            "=",
+                            "Health",
+                            ">",
                             "0"
                           ],
                           "subInstructions": []
                         }
                       ],
-                      "events": []
-                    },
-                    {
-                      "disabled": false,
-                      "folded": false,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
+                      "actions": [],
+                      "events": [
                         {
-                          "type": {
-                            "inverted": false,
-                            "value": "PlatformBehavior::IsJumping"
-                          },
-                          "parameters": [
-                            "PlayerBoy",
-                            "PlatformerObject"
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "KeyPressed"
+                              },
+                              "parameters": [
+                                "",
+                                "Right"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "PlatformBehavior::IsMoving"
+                              },
+                              "parameters": [
+                                "PlayerBoy",
+                                "PlatformerObject"
+                              ],
+                              "subInstructions": []
+                            }
                           ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "actions": [
+                          "actions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "FlipX"
+                              },
+                              "parameters": [
+                                "PlayerBoy",
+                                "no"
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "events": [
+                            {
+                              "disabled": false,
+                              "folded": false,
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "PlatformBehavior::IsOnFloor"
+                                  },
+                                  "parameters": [
+                                    "PlayerBoy",
+                                    "PlatformerObject"
+                                  ],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "ChangeAnimation"
+                                  },
+                                  "parameters": [
+                                    "PlayerBoy",
+                                    "=",
+                                    "1"
+                                  ],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "events": []
+                            }
+                          ]
+                        },
                         {
-                          "type": {
-                            "inverted": false,
-                            "value": "ChangeAnimation"
-                          },
-                          "parameters": [
-                            "PlayerBoy",
-                            "=",
-                            "2"
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "KeyPressed"
+                              },
+                              "parameters": [
+                                "",
+                                "Left"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "PlatformBehavior::IsMoving"
+                              },
+                              "parameters": [
+                                "PlayerBoy",
+                                "PlatformerObject"
+                              ],
+                              "subInstructions": []
+                            }
                           ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "events": []
-                    },
-                    {
-                      "disabled": false,
-                      "folded": false,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
+                          "actions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "FlipX"
+                              },
+                              "parameters": [
+                                "PlayerBoy",
+                                "yes"
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "events": [
+                            {
+                              "disabled": false,
+                              "folded": false,
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "PlatformBehavior::IsOnFloor"
+                                  },
+                                  "parameters": [
+                                    "PlayerBoy",
+                                    "PlatformerObject"
+                                  ],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "ChangeAnimation"
+                                  },
+                                  "parameters": [
+                                    "PlayerBoy",
+                                    "=",
+                                    "1"
+                                  ],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "events": []
+                            }
+                          ]
+                        },
                         {
-                          "type": {
-                            "inverted": false,
-                            "value": "PlatformBehavior::IsFalling"
-                          },
-                          "parameters": [
-                            "PlayerBoy",
-                            "PlatformerObject"
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "PlatformBehavior::IsMoving"
+                              },
+                              "parameters": [
+                                "PlayerBoy",
+                                "PlatformerObject"
+                              ],
+                              "subInstructions": []
+                            }
                           ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "actions": [
+                          "actions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "ChangeAnimation"
+                              },
+                              "parameters": [
+                                "PlayerBoy",
+                                "=",
+                                "0"
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "events": []
+                        },
                         {
-                          "type": {
-                            "inverted": false,
-                            "value": "ChangeAnimation"
-                          },
-                          "parameters": [
-                            "PlayerBoy",
-                            "=",
-                            "3"
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "PlatformBehavior::IsJumping"
+                              },
+                              "parameters": [
+                                "PlayerBoy",
+                                "PlatformerObject"
+                              ],
+                              "subInstructions": []
+                            }
                           ],
-                          "subInstructions": []
+                          "actions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "ChangeAnimation"
+                              },
+                              "parameters": [
+                                "PlayerBoy",
+                                "=",
+                                "2"
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "events": []
+                        },
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "PlatformBehavior::IsFalling"
+                              },
+                              "parameters": [
+                                "PlayerBoy",
+                                "PlatformerObject"
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "ChangeAnimation"
+                              },
+                              "parameters": [
+                                "PlayerBoy",
+                                "=",
+                                "3"
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "events": []
                         }
-                      ],
-                      "events": []
+                      ]
                     }
-                  ]
+                  ],
+                  "parameters": []
                 },
                 {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
                   "disabled": false,
                   "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
+                  "name": "Interractions",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
                     {
-                      "type": {
-                        "inverted": false,
-                        "value": "VarScene"
-                      },
-                      "parameters": [
-                        "Health",
-                        "<=",
-                        "0"
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "PlayerBoy",
+                            "Alcool_Gel",
+                            "",
+                            "",
+                            "yes"
+                          ],
+                          "subInstructions": []
+                        }
                       ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ChangeAnimation"
-                      },
-                      "parameters": [
-                        "PlayerBoy",
-                        "=",
-                        "4"
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "Alcool_Gel",
+                            ""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "Hygiene",
+                            "+",
+                            "25"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "Score",
+                            "+",
+                            "25"
+                          ],
+                          "subInstructions": []
+                        }
                       ],
-                      "subInstructions": []
+                      "events": []
                     },
                     {
-                      "type": {
-                        "inverted": false,
-                        "value": "PlatformBehavior::MaxSpeed"
-                      },
-                      "parameters": [
-                        "PlayerBoy",
-                        "PlatformerObject",
-                        "=",
-                        "0"
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "PlayerBoy",
+                            "Luva",
+                            "",
+                            "",
+                            "yes"
+                          ],
+                          "subInstructions": []
+                        }
                       ],
-                      "subInstructions": []
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "Luva",
+                            ""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "Hygiene",
+                            "+",
+                            "25"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "Score",
+                            "+",
+                            "25"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
                     },
                     {
-                      "type": {
-                        "inverted": false,
-                        "value": "PlatformBehavior::JumpSpeed"
-                      },
-                      "parameters": [
-                        "PlayerBoy",
-                        "PlatformerObject",
-                        "=",
-                        "0"
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "PlayerBoy",
+                            "Mask",
+                            "",
+                            "",
+                            "yes"
+                          ],
+                          "subInstructions": []
+                        }
                       ],
-                      "subInstructions": []
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "Mask",
+                            ""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "Hygiene",
+                            "+",
+                            "25"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "Score",
+                            "+",
+                            "25"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
                     }
                   ],
-                  "events": []
+                  "parameters": []
                 }
               ],
               "parameters": []
@@ -13851,473 +14574,20 @@
               "creationTime": 0,
               "disabled": false,
               "folded": false,
-              "name": "Interractions",
+              "name": "Girl",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
               "events": [
                 {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
                   "disabled": false,
                   "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "PlayerBoy",
-                        "Virus",
-                        "",
-                        "",
-                        "yes"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "Virus",
-                        ""
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": [
-                    {
-                      "disabled": false,
-                      "folded": false,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "VarScene"
-                          },
-                          "parameters": [
-                            "Hygiene",
-                            "<=",
-                            "0"
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "ModVarScene"
-                          },
-                          "parameters": [
-                            "Health",
-                            "-",
-                            "25"
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "events": []
-                    },
-                    {
-                      "disabled": false,
-                      "folded": false,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "VarScene"
-                          },
-                          "parameters": [
-                            "Hygiene",
-                            ">",
-                            "0"
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "ModVarScene"
-                          },
-                          "parameters": [
-                            "Hygiene",
-                            "-",
-                            "25"
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "events": []
-                    }
-                  ]
-                },
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "PlayerBoy",
-                        "Alcool_Gel",
-                        "",
-                        "",
-                        "yes"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "Alcool_Gel",
-                        ""
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": [
-                    {
-                      "disabled": false,
-                      "folded": false,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "VarScene"
-                          },
-                          "parameters": [
-                            "Hygiene",
-                            "<=",
-                            "75"
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "ModVarScene"
-                          },
-                          "parameters": [
-                            "Hygiene",
-                            "+",
-                            "25"
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "events": []
-                    },
-                    {
-                      "disabled": false,
-                      "folded": false,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "VarScene"
-                          },
-                          "parameters": [
-                            "Hygiene",
-                            ">",
-                            "75"
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "ModVarScene"
-                          },
-                          "parameters": [
-                            "Hygiene",
-                            "=",
-                            "100"
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "events": []
-                    }
-                  ]
-                },
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "PlayerBoy",
-                        "Luva",
-                        "",
-                        "",
-                        "yes"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "Luva",
-                        ""
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": [
-                    {
-                      "disabled": false,
-                      "folded": false,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "VarScene"
-                          },
-                          "parameters": [
-                            "Hygiene",
-                            "<=",
-                            "75"
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "ModVarScene"
-                          },
-                          "parameters": [
-                            "Hygiene",
-                            "+",
-                            "25"
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "events": []
-                    },
-                    {
-                      "disabled": false,
-                      "folded": false,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "VarScene"
-                          },
-                          "parameters": [
-                            "Hygiene",
-                            ">",
-                            "75"
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "ModVarScene"
-                          },
-                          "parameters": [
-                            "Hygiene",
-                            "=",
-                            "100"
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "events": []
-                    }
-                  ]
-                },
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "PlayerBoy",
-                        "Mask",
-                        "",
-                        "",
-                        "yes"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "Mask",
-                        ""
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": [
-                    {
-                      "disabled": false,
-                      "folded": false,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "VarScene"
-                          },
-                          "parameters": [
-                            "Hygiene",
-                            "<=",
-                            "75"
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "ModVarScene"
-                          },
-                          "parameters": [
-                            "Hygiene",
-                            "+",
-                            "25"
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "events": []
-                    },
-                    {
-                      "disabled": false,
-                      "folded": false,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "VarScene"
-                          },
-                          "parameters": [
-                            "Hygiene",
-                            ">",
-                            "75"
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "ModVarScene"
-                          },
-                          "parameters": [
-                            "Hygiene",
-                            "=",
-                            "100"
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "events": []
-                    }
-                  ]
-                }
-              ],
-              "parameters": []
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "disabled": false,
-          "folded": true,
-          "name": "Girl",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "colorB": 228,
-              "colorG": 176,
-              "colorR": 74,
-              "creationTime": 0,
-              "disabled": false,
-              "folded": false,
-              "name": "Movement",
-              "source": "",
-              "type": "BuiltinCommonInstructions::Group",
-              "events": [
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "VarScene"
-                      },
-                      "parameters": [
-                        "Health",
-                        ">",
-                        "0"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [],
+                  "name": "Movement",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
                   "events": [
                     {
                       "disabled": false,
@@ -14572,67 +14842,199 @@
                       ],
                       "events": []
                     }
-                  ]
+                  ],
+                  "parameters": []
                 },
                 {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
                   "disabled": false,
                   "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
+                  "name": "Interractions",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
                     {
-                      "type": {
-                        "inverted": false,
-                        "value": "VarScene"
-                      },
-                      "parameters": [
-                        "Health",
-                        "<=",
-                        "0"
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "PlayerGirl",
+                            "Alcool_Gel",
+                            "",
+                            "",
+                            "yes"
+                          ],
+                          "subInstructions": []
+                        }
                       ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ChangeAnimation"
-                      },
-                      "parameters": [
-                        "PlayerGirl",
-                        "=",
-                        "4"
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "Alcool_Gel",
+                            ""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "Hygiene",
+                            "+",
+                            "25"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "Score",
+                            "+",
+                            "25"
+                          ],
+                          "subInstructions": []
+                        }
                       ],
-                      "subInstructions": []
+                      "events": []
                     },
                     {
-                      "type": {
-                        "inverted": false,
-                        "value": "PlatformBehavior::MaxSpeed"
-                      },
-                      "parameters": [
-                        "PlayerGirl",
-                        "PlatformerObject",
-                        "=",
-                        "0"
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "PlayerGirl",
+                            "Luva",
+                            "",
+                            "",
+                            "yes"
+                          ],
+                          "subInstructions": []
+                        }
                       ],
-                      "subInstructions": []
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "Luva",
+                            ""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "Hygiene",
+                            "+",
+                            "25"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "Score",
+                            "+",
+                            "25"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
                     },
                     {
-                      "type": {
-                        "inverted": false,
-                        "value": "PlatformBehavior::JumpSpeed"
-                      },
-                      "parameters": [
-                        "PlayerGirl",
-                        "PlatformerObject",
-                        "=",
-                        "0"
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "PlayerGirl",
+                            "Mask",
+                            "",
+                            "",
+                            "yes"
+                          ],
+                          "subInstructions": []
+                        }
                       ],
-                      "subInstructions": []
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "Mask",
+                            ""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "Hygiene",
+                            "+",
+                            "25"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "Score",
+                            "+",
+                            "25"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
                     }
                   ],
-                  "events": []
+                  "parameters": []
                 }
               ],
               "parameters": []
@@ -14643,8 +15045,8 @@
               "colorR": 74,
               "creationTime": 0,
               "disabled": false,
-              "folded": true,
-              "name": "Interractions",
+              "folded": false,
+              "name": "Enemies",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
               "events": [
@@ -14660,6 +15062,157 @@
                       },
                       "parameters": [
                         "PlayerGirl",
+                        "Virus",
+                        "",
+                        "",
+                        "yes"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Virus",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "Hygiene",
+                        "-",
+                        "25"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": true,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "PlayerGirl",
+                        "Virus_walker",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Virus_walker",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "VarScene"
+                          },
+                          "parameters": [
+                            "Hygiene",
+                            "<=",
+                            "0"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "Health",
+                            "-",
+                            "25"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "VarScene"
+                          },
+                          "parameters": [
+                            "Hygiene",
+                            ">",
+                            "0"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "Hygiene",
+                            "-",
+                            "25"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    }
+                  ]
+                },
+                {
+                  "disabled": false,
+                  "folded": true,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "PlayerBoy",
                         "Virus",
                         "",
                         "",
@@ -14754,7 +15307,7 @@
                 },
                 {
                   "disabled": false,
-                  "folded": false,
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -14763,11 +15316,11 @@
                         "value": "CollisionNP"
                       },
                       "parameters": [
-                        "PlayerGirl",
-                        "Alcool_Gel",
+                        "PlayerBoy",
+                        "Virus_walker",
                         "",
                         "",
-                        "yes"
+                        ""
                       ],
                       "subInstructions": []
                     }
@@ -14779,7 +15332,7 @@
                         "value": "Delete"
                       },
                       "parameters": [
-                        "Alcool_Gel",
+                        "Virus_walker",
                         ""
                       ],
                       "subInstructions": []
@@ -14799,7 +15352,7 @@
                           "parameters": [
                             "Hygiene",
                             "<=",
-                            "75"
+                            "0"
                           ],
                           "subInstructions": []
                         }
@@ -14811,8 +15364,8 @@
                             "value": "ModVarScene"
                           },
                           "parameters": [
-                            "Hygiene",
-                            "+",
+                            "Health",
+                            "-",
                             "25"
                           ],
                           "subInstructions": []
@@ -14833,7 +15386,7 @@
                           "parameters": [
                             "Hygiene",
                             ">",
-                            "75"
+                            "0"
                           ],
                           "subInstructions": []
                         }
@@ -14846,216 +15399,8 @@
                           },
                           "parameters": [
                             "Hygiene",
-                            "=",
-                            "100"
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "events": []
-                    }
-                  ]
-                },
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "PlayerGirl",
-                        "Luva",
-                        "",
-                        "",
-                        "yes"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "Luva",
-                        ""
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": [
-                    {
-                      "disabled": false,
-                      "folded": false,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "VarScene"
-                          },
-                          "parameters": [
-                            "Hygiene",
-                            "<=",
-                            "75"
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "ModVarScene"
-                          },
-                          "parameters": [
-                            "Hygiene",
-                            "+",
+                            "-",
                             "25"
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "events": []
-                    },
-                    {
-                      "disabled": false,
-                      "folded": false,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "VarScene"
-                          },
-                          "parameters": [
-                            "Hygiene",
-                            ">",
-                            "75"
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "ModVarScene"
-                          },
-                          "parameters": [
-                            "Hygiene",
-                            "=",
-                            "100"
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "events": []
-                    }
-                  ]
-                },
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "PlayerGirl",
-                        "Mask",
-                        "",
-                        "",
-                        "yes"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "Mask",
-                        ""
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": [
-                    {
-                      "disabled": false,
-                      "folded": false,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "VarScene"
-                          },
-                          "parameters": [
-                            "Hygiene",
-                            "<=",
-                            "75"
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "ModVarScene"
-                          },
-                          "parameters": [
-                            "Hygiene",
-                            "+",
-                            "25"
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "events": []
-                    },
-                    {
-                      "disabled": false,
-                      "folded": false,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "VarScene"
-                          },
-                          "parameters": [
-                            "Hygiene",
-                            ">",
-                            "75"
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "ModVarScene"
-                          },
-                          "parameters": [
-                            "Hygiene",
-                            "=",
-                            "100"
                           ],
                           "subInstructions": []
                         }
@@ -15066,6 +15411,255 @@
                 }
               ],
               "parameters": []
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
+          "name": "VariableControl",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "Hygiene",
+                    ">",
+                    "100"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Hygiene",
+                    "=",
+                    "100"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "Hygiene",
+                    "<=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Health",
+                    "+",
+                    "Variable(Hygiene)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "Score",
+                    "-",
+                    "Variable(Hygiene)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Hygiene",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "Health",
+                    ">",
+                    "100"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Health",
+                    "=",
+                    "100"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "Health",
+                    "<=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "PlayerGirl",
+                    "=",
+                    "4"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlatformBehavior::MaxSpeed"
+                  },
+                  "parameters": [
+                    "PlayerGirl",
+                    "PlatformerObject",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlatformBehavior::JumpSpeed"
+                  },
+                  "parameters": [
+                    "PlayerGirl",
+                    "PlatformerObject",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Health",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "PlayerBoy",
+                    "=",
+                    "4"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlatformBehavior::MaxSpeed"
+                  },
+                  "parameters": [
+                    "PlayerBoy",
+                    "PlatformerObject",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlatformBehavior::JumpSpeed"
+                  },
+                  "parameters": [
+                    "PlayerBoy",
+                    "PlatformerObject",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
             }
           ],
           "parameters": []
@@ -19505,7 +20099,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridB": 255,
         "gridG": 180,
         "gridHeight": 64,
@@ -19513,9 +20107,9 @@
         "gridOffsetY": 0,
         "gridR": 158,
         "gridWidth": 64,
-        "snap": true,
+        "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.468
+        "zoomFactor": 0.084
       },
       "objectsGroups": [],
       "variables": [
@@ -19537,8 +20131,8 @@
           "locked": false,
           "name": "Market1_BG",
           "persistentUuid": "6ebccc34-b23d-42e6-9400-40d6524803cf",
-          "width": 6528,
-          "x": 0,
+          "width": 10816,
+          "x": -4288,
           "y": 0,
           "zOrder": 1,
           "numberProperties": [],
@@ -19554,8 +20148,8 @@
           "name": "PlayerBoy",
           "persistentUuid": "accf8d9c-cedb-45c1-9ec2-07fc42866137",
           "width": 288,
-          "x": 192,
-          "y": 448,
+          "x": -4160,
+          "y": 256,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -19570,8 +20164,8 @@
           "name": "PlayerGirl",
           "persistentUuid": "700b1ec7-47aa-430b-91b7-079a709aa2b0",
           "width": 192,
-          "x": 64,
-          "y": 256,
+          "x": -4288,
+          "y": 64,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -19585,8 +20179,8 @@
           "locked": false,
           "name": "Play_main",
           "persistentUuid": "dadc5944-da4c-4f1e-8dc2-6b89ec41309d",
-          "width": 6528,
-          "x": 0,
+          "width": 10816,
+          "x": -4288,
           "y": 960,
           "zOrder": 21,
           "numberProperties": [],
@@ -19602,7 +20196,7 @@
           "name": "Play_main",
           "persistentUuid": "577a418b-ea8a-496d-9839-091acd96ac54",
           "width": 1472,
-          "x": -1472,
+          "x": -5760,
           "y": -64,
           "zOrder": 23,
           "numberProperties": [],
@@ -19618,7 +20212,7 @@
           "name": "Play_main",
           "persistentUuid": "9fa255eb-51a9-45ea-b9d9-1a2d39da7e51",
           "width": 128,
-          "x": 0,
+          "x": -4288,
           "y": -128,
           "zOrder": 24,
           "numberProperties": [],
@@ -19666,7 +20260,7 @@
           "name": "Play_main",
           "persistentUuid": "3d295dcb-b7ca-42cd-a2ce-778cd5e0c8fd",
           "width": 832,
-          "x": 896,
+          "x": -3584,
           "y": 640,
           "zOrder": 26,
           "numberProperties": [],
@@ -19682,7 +20276,7 @@
           "name": "Play_main",
           "persistentUuid": "92634a27-698c-4975-9399-d7be398acda7",
           "width": 448,
-          "x": 1856,
+          "x": -2624,
           "y": 320,
           "zOrder": 27,
           "numberProperties": [],
@@ -19698,7 +20292,7 @@
           "name": "Play_main",
           "persistentUuid": "f4f3eb69-a895-4e46-bc0d-f0e7ba7be123",
           "width": 768,
-          "x": 2624,
+          "x": -1856,
           "y": 320,
           "zOrder": 28,
           "numberProperties": [],
@@ -19714,7 +20308,7 @@
           "name": "Play_main",
           "persistentUuid": "9cad61b6-6e33-4b8d-902b-3fa136447e24",
           "width": 256,
-          "x": 3392,
+          "x": -1088,
           "y": 192,
           "zOrder": 29,
           "numberProperties": [],
@@ -20038,6 +20632,39 @@
                 }
               ],
               "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Healthbar_Text",
+                    "=",
+                    "\"Vida: \"+ToString(round(Variable(Health)))"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Hygienebar_Text",
+                    "=",
+                    "\"Higiene: \"+ToString(round(Variable(Hygiene)))"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
             }
           ],
           "parameters": []
@@ -20048,7 +20675,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Boy",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -20408,7 +21035,7 @@
               "colorR": 74,
               "creationTime": 0,
               "disabled": false,
-              "folded": false,
+              "folded": true,
               "name": "Interractions",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -20841,7 +21468,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Girl",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -21629,6 +22256,156 @@
           "parameters": []
         },
         {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": true,
+          "name": "Variables",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "Hygiene",
+                    ">",
+                    "100"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Hygiene",
+                    "=",
+                    "100"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "Hygiene",
+                    "<",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Hygiene",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "Health",
+                    "<",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Health",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "Health",
+                    ">",
+                    "100"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Health",
+                    "=",
+                    "100"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": []
+        },
+        {
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
@@ -21701,7 +22478,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": false,
+        "grid": true,
         "gridB": 255,
         "gridG": 180,
         "gridHeight": 64,
@@ -21709,9 +22486,9 @@
         "gridOffsetY": 0,
         "gridR": 158,
         "gridWidth": 64,
-        "snap": false,
+        "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.3534
+        "zoomFactor": 0.194
       },
       "objectsGroups": [],
       "variables": [
@@ -21733,8 +22510,8 @@
           "locked": false,
           "name": "Plat_main",
           "persistentUuid": "c4360a87-107b-43e8-ba0a-9b8032417f17",
-          "width": 6528,
-          "x": 0,
+          "width": 10880,
+          "x": -3200,
           "y": 960,
           "zOrder": 2,
           "numberProperties": [],
@@ -21749,8 +22526,8 @@
           "locked": false,
           "name": "Hospital1_BG",
           "persistentUuid": "0a911bc5-45b4-467e-8602-4b6505864c74",
-          "width": 6528,
-          "x": 0,
+          "width": 10880,
+          "x": -3200,
           "y": 0,
           "zOrder": 24,
           "numberProperties": [],
@@ -21766,7 +22543,7 @@
           "name": "PlayerGirl",
           "persistentUuid": "36769104-4d72-4aa9-b76a-10b1fbe153e4",
           "width": 192,
-          "x": 384,
+          "x": -3136,
           "y": 64,
           "zOrder": 25,
           "numberProperties": [],
@@ -21782,8 +22559,8 @@
           "name": "PlayerBoy",
           "persistentUuid": "fcd0ef70-5e9c-49b6-a23b-b33e903b81b0",
           "width": 300,
-          "x": 499,
-          "y": 261,
+          "x": -3008,
+          "y": 256,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -22284,6 +23061,70 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1024,
+          "layer": "",
+          "locked": false,
+          "name": "Plat1",
+          "persistentUuid": "28914100-b87b-4b1c-9446-4a9bbd1fd282",
+          "width": 1408,
+          "x": -4608,
+          "y": 64,
+          "zOrder": 101,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Plat1",
+          "persistentUuid": "d697fc73-38d9-45f5-b5c5-30ce543d2688",
+          "width": 1536,
+          "x": -4608,
+          "y": -64,
+          "zOrder": 102,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1024,
+          "layer": "",
+          "locked": false,
+          "name": "Plat1",
+          "persistentUuid": "bbd53b87-0b96-4119-b73d-8c20a9645e69",
+          "width": 1408,
+          "x": 7680,
+          "y": 64,
+          "zOrder": 101,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Plat1",
+          "persistentUuid": "ba6b7bdf-efb8-4f5b-a7b2-32a2cb4a5b26",
+          "width": 1536,
+          "x": 7552,
+          "y": -64,
+          "zOrder": 102,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -22368,7 +23209,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "GUI",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -22523,6 +23364,39 @@
                 }
               ],
               "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Healthbar_Text",
+                    "=",
+                    "\"Vida: \"+ToString(round(Variable(Health)))"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Hygienebar_Text",
+                    "=",
+                    "\"Higiene: \"+ToString(round(Variable(Hygiene)))"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
             }
           ],
           "parameters": []
@@ -22533,7 +23407,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Girl",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -23418,7 +24292,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Boy",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -24296,6 +25170,164 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": true,
+          "name": "Variables",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "Hygiene",
+                    ">",
+                    "100"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Hygiene",
+                    "=",
+                    "100"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "Hygiene",
+                    "<",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Hygiene",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "Health",
+                    "<",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Health",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "Health",
+                    ">",
+                    "100"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Health",
+                    "=",
+                    "100"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
         }
       ],
       "layers": [
