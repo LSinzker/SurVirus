@@ -13,7 +13,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.gamename",
-    "projectFile": "C:\\Users\\luisa\\Documents\\GDevelop projects\\SurVirus\\game.json",
+    "projectFile": "/home/luisa/SurVirus/game.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -2366,6 +2366,7 @@
       "variables": [],
       "behaviors": [
         {
+          "maxSpeed": 400,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
           "acceleration": 1500,
@@ -2377,7 +2378,6 @@
           "jumpSustainTime": 0.2,
           "ladderClimbingSpeed": 150,
           "maxFallingSpeed": 700,
-          "maxSpeed": 350,
           "roundCoordinates": true,
           "slopeMaxAngle": 60,
           "xGrabTolerance": 10,
@@ -6747,11 +6747,11 @@
       "variables": [],
       "behaviors": [
         {
+          "maxSpeed": 400,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
           "gravity": 1000,
           "jumpSpeed": 750,
-          "maxSpeed": 350,
           "acceleration": 1500,
           "canGrabPlatforms": false,
           "deceleration": 1500,
