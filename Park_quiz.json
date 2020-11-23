@@ -12,7 +12,7 @@
 	{
 		"title": "dialogNo",
 		"tags": "",
-		"body": "Procure fazer isso com mais frequência!\nPegar sol diariamente ajuda a manter os níveis de vitamina D altos.\nVitamina D tem se mostrado eficaz no combate à inflamação causada pelo Coronavírus!\n> Continuar\n[[ answer: Continuar|exit ]] ",
+		"body": "Procure fazer isso com mais frequência!\nPegar sol diariamente ajuda a manter os níveis de vitamina D altos.\nVitamina D tem se mostrado eficaz no combate às inflamações causadas pelo Coronavírus!\n> Continuar\n[[ answer: Continuar|exit ]] ",
 		"position": {
 			"x": 610,
 			"y": -266
@@ -32,10 +32,10 @@
 	{
 		"title": "dialogYes",
 		"tags": "",
-		"body": "Pegar sol ajuda a manter os níveis de vitamina D altos.\nVitamina D tem se mostrado eficaz no combate à inflamação causada pelo Coronavírus!\n> Continuar\n[[ answer: |exit]] ",
+		"body": "Pegar sol ajuda a manter os níveis de vitamina D altos.\nVitamina D tem se mostrado eficaz no combate às inflamações causadas pelo Coronavírus!\n> Continuar\n[[ answer: |exit]] ",
 		"position": {
 			"x": 91,
-			"y": -262
+			"y": -263
 		},
 		"colorID": 0
 	}
