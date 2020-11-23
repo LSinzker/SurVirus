@@ -1,0 +1,42 @@
+[
+	{
+		"title": "Start",
+		"tags": "",
+		"body": "Olá, eu sou o Professor!\nVocê procura pegar sol diariamente?\n[[Sim|dialogYes]]\n[[Não|dialogNo]]",
+		"position": {
+			"x": 344,
+			"y": -543
+		},
+		"colorID": 0
+	},
+	{
+		"title": "dialogNo",
+		"tags": "",
+		"body": "Procure fazer isso com mais frequência!\nPegar sol diariamente ajuda a manter os níveis de vitamina D altos.\nVitamina D tem se mostrado eficaz no combate à inflamação causada pelo Coronavírus!\n> Continuar\n[[ answer: Continuar|exit ]] ",
+		"position": {
+			"x": 610,
+			"y": -266
+		},
+		"colorID": 0
+	},
+	{
+		"title": "exit",
+		"tags": "",
+		"body": "Continuar",
+		"position": {
+			"x": 349,
+			"y": 53
+		},
+		"colorID": 0
+	},
+	{
+		"title": "dialogYes",
+		"tags": "",
+		"body": "Pegar sol ajuda a manter os níveis de vitamina D altos.\nVitamina D tem se mostrado eficaz no combate à inflamação causada pelo Coronavírus!\n> Continuar\n[[ answer: |exit]] ",
+		"position": {
+			"x": 91,
+			"y": -262
+		},
+		"colorID": 0
+	}
+]
