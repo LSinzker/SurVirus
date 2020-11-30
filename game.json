@@ -2778,14 +2778,6 @@
         "userAdded": false
       },
       {
-        "disablePreload": false,
-        "file": "NewFile.json",
-        "kind": "json",
-        "metadata": "",
-        "name": "NewFile.json",
-        "userAdded": true
-      },
-      {
         "alwaysLoaded": false,
         "file": "Trigger2-1.png",
         "kind": "image",
@@ -2808,6 +2800,22 @@
         "kind": "json",
         "metadata": "",
         "name": "Market_quiz.json",
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "NewFile.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "NewFile.json",
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "Hospital_quiz.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "Hospital_quiz.json",
         "userAdded": false
       }
     ],
@@ -12897,6 +12905,10 @@
         {
           "name": "Direction",
           "value": "Right"
+        },
+        {
+          "name": "Speed",
+          "value": "300"
         }
       ],
       "behaviors": [],
@@ -14350,8 +14362,8 @@
           "name": "Virus",
           "persistentUuid": "30b576a6-ea32-4ff6-b0e6-8831626f5f50",
           "width": 128,
-          "x": -2048,
-          "y": 461,
+          "x": -1984,
+          "y": 384,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -24206,8 +24218,8 @@
           "name": "PlayerGirl",
           "persistentUuid": "700b1ec7-47aa-430b-91b7-079a709aa2b0",
           "width": 192,
-          "x": 4736,
-          "y": 0,
+          "x": -4224,
+          "y": 128,
           "zOrder": 50,
           "numberProperties": [],
           "stringProperties": [],
@@ -29892,7 +29904,7 @@
         "gridWidth": 64,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.29
+        "zoomFactor": 0.374
       },
       "objectsGroups": [],
       "variables": [
@@ -29937,7 +29949,7 @@
           "width": 10880,
           "x": -3200,
           "y": 0,
-          "zOrder": 24,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -29951,8 +29963,8 @@
           "name": "PlayerGirl",
           "persistentUuid": "36769104-4d72-4aa9-b76a-10b1fbe153e4",
           "width": 192,
-          "x": -3136,
-          "y": 64,
+          "x": -3200,
+          "y": 128,
           "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [],
@@ -29967,7 +29979,7 @@
           "name": "PlayerBoy",
           "persistentUuid": "fcd0ef70-5e9c-49b6-a23b-b33e903b81b0",
           "width": 300,
-          "x": -3008,
+          "x": -3136,
           "y": 256,
           "zOrder": 26,
           "numberProperties": [],
@@ -29982,8 +29994,8 @@
           "locked": false,
           "name": "Plat1",
           "persistentUuid": "ee3c4b67-b207-4c82-9c5b-76e9653d01a3",
-          "width": 257,
-          "x": 512,
+          "width": 384,
+          "x": -512,
           "y": 832,
           "zOrder": 27,
           "numberProperties": [],
@@ -29998,26 +30010,10 @@
           "locked": false,
           "name": "Plat1",
           "persistentUuid": "6d30df27-3bc3-4a79-96f4-002461ee8df6",
-          "width": 512,
-          "x": 1088,
+          "width": 256,
+          "x": 256,
           "y": 640,
           "zOrder": 28,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 256,
-          "layer": "",
-          "locked": false,
-          "name": "Plat1",
-          "persistentUuid": "4a6be19b-dda1-42f4-af20-aeac1916dc9f",
-          "width": 128,
-          "x": 1792,
-          "y": 512,
-          "zOrder": 30,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -30031,8 +30027,8 @@
           "name": "Plat1",
           "persistentUuid": "723e26bf-e178-4925-befd-00529d99f612",
           "width": 384,
-          "x": 2304,
-          "y": 448,
+          "x": 1088,
+          "y": 384,
           "zOrder": 32,
           "numberProperties": [],
           "stringProperties": [],
@@ -30047,7 +30043,7 @@
           "name": "Plat1",
           "persistentUuid": "b8837b39-485d-4039-abfa-a8dd66077cd1",
           "width": 128,
-          "x": 2816,
+          "x": 1728,
           "y": 448,
           "zOrder": 33,
           "numberProperties": [],
@@ -30063,7 +30059,7 @@
           "name": "Plat1",
           "persistentUuid": "89a7194b-8b8c-42dd-82a4-55d38ece20db",
           "width": 128,
-          "x": 3200,
+          "x": 2112,
           "y": 0,
           "zOrder": 34,
           "numberProperties": [],
@@ -30079,7 +30075,7 @@
           "name": "Plat1",
           "persistentUuid": "9f074acc-e135-4f1f-900e-9ae9484c6078",
           "width": 256,
-          "x": 3200,
+          "x": 2112,
           "y": 576,
           "zOrder": 35,
           "numberProperties": [],
@@ -30095,8 +30091,8 @@
           "name": "Plat1",
           "persistentUuid": "f8720bf6-4622-4324-947f-fd21ad16f44b",
           "width": 128,
-          "x": 3584,
-          "y": 384,
+          "x": 2369,
+          "y": 448,
           "zOrder": 36,
           "numberProperties": [],
           "stringProperties": [],
@@ -30105,13 +30101,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 127,
+          "height": 128,
           "layer": "",
           "locked": false,
           "name": "Plat1",
           "persistentUuid": "240312b1-7c88-48a8-8c96-61c865adefdf",
-          "width": 259,
-          "x": 3968,
+          "width": 128,
+          "x": 2880,
           "y": 448,
           "zOrder": 37,
           "numberProperties": [],
@@ -30127,7 +30123,7 @@
           "name": "Plat1",
           "persistentUuid": "ed59a5d3-be53-4107-b8a8-8534b1457055",
           "width": 127,
-          "x": 640,
+          "x": -384,
           "y": 704,
           "zOrder": 38,
           "numberProperties": [],
@@ -30143,7 +30139,7 @@
           "name": "Plat1",
           "persistentUuid": "2d9a5dd1-9cd2-4ae3-b507-a672ded31854",
           "width": 128,
-          "x": 4224,
+          "x": 3008,
           "y": 448,
           "zOrder": 39,
           "numberProperties": [],
@@ -30159,7 +30155,7 @@
           "name": "Plat1",
           "persistentUuid": "9a6e9d06-4ca6-4e21-a32a-52b32903e08e",
           "width": 130,
-          "x": 4480,
+          "x": 3392,
           "y": 0,
           "zOrder": 40,
           "numberProperties": [],
@@ -30169,14 +30165,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 127,
+          "height": 128,
           "layer": "",
           "locked": false,
           "name": "Plat1",
           "persistentUuid": "756be4ad-4fba-4092-ae2e-0a2df3577086",
           "width": 256,
-          "x": 4672,
-          "y": 640,
+          "x": 3328,
+          "y": 576,
           "zOrder": 41,
           "numberProperties": [],
           "stringProperties": [],
@@ -30191,25 +30187,9 @@
           "name": "Plat1",
           "persistentUuid": "cccfc8fa-2b0f-4ec2-8d17-0654490effe6",
           "width": 128,
-          "x": 4800,
-          "y": 512,
+          "x": 3904,
+          "y": 448,
           "zOrder": 42,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 124,
-          "layer": "",
-          "locked": false,
-          "name": "Plat1",
-          "persistentUuid": "750edbfa-591a-4e7a-b50d-a688918e3ce0",
-          "width": 259,
-          "x": 5120,
-          "y": 256,
-          "zOrder": 43,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -30222,9 +30202,9 @@
           "locked": false,
           "name": "Plat1",
           "persistentUuid": "a1ec6073-c548-4112-9524-6111033c43ed",
-          "width": 640,
-          "x": 5504,
-          "y": 640,
+          "width": 896,
+          "x": 5312,
+          "y": 832,
           "zOrder": 44,
           "numberProperties": [],
           "stringProperties": [],
@@ -30233,14 +30213,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 128,
+          "height": 256,
           "layer": "",
           "locked": false,
           "name": "Plat1",
           "persistentUuid": "b8437460-3520-449c-a960-dc6af6c87a31",
-          "width": 512,
-          "x": 5632,
-          "y": 512,
+          "width": 128,
+          "x": 5504,
+          "y": 192,
           "zOrder": 45,
           "numberProperties": [],
           "stringProperties": [],
@@ -30254,9 +30234,9 @@
           "locked": false,
           "name": "Plat1",
           "persistentUuid": "7a59da8b-83c4-432e-b2a6-7afb837f17c5",
-          "width": 384,
-          "x": 5760,
-          "y": 384,
+          "width": 512,
+          "x": 5696,
+          "y": 704,
           "zOrder": 46,
           "numberProperties": [],
           "stringProperties": [],
@@ -30270,9 +30250,9 @@
           "locked": false,
           "name": "Plat1",
           "persistentUuid": "51f5d40c-602f-4475-b759-f0899c68830d",
-          "width": 128,
-          "x": 6016,
-          "y": 256,
+          "width": 384,
+          "x": 5824,
+          "y": 576,
           "zOrder": 47,
           "numberProperties": [],
           "stringProperties": [],
@@ -30286,10 +30266,10 @@
           "locked": false,
           "name": "InfectedAreaH",
           "persistentUuid": "ffb9982b-2387-4b9f-914c-e04a78630e08",
-          "width": 1792,
-          "x": 2816,
+          "width": 1664,
+          "x": 1728,
           "y": 0,
-          "zOrder": 48,
+          "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -30302,10 +30282,10 @@
           "locked": false,
           "name": "InfectedAreaV",
           "persistentUuid": "6c25fcb1-768f-4118-b108-9319b6dff4ab",
-          "width": 1792,
-          "x": 2816,
+          "width": 1664,
+          "x": 1728,
           "y": 0,
-          "zOrder": 100,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -30409,30 +30389,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 64,
-          "layer": "",
-          "locked": false,
-          "name": "Mask",
-          "persistentUuid": "24366f28-ccd9-4729-87f3-f70dda3db4df",
-          "width": 128,
-          "x": 2496,
-          "y": 320,
-          "zOrder": 50,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 128,
           "layer": "",
           "locked": false,
           "name": "Alcool_Gel",
           "persistentUuid": "b18af536-8208-4a7f-9bdd-c6eccba5389d",
           "width": 128,
-          "x": 3904,
-          "y": 64,
+          "x": 2752,
+          "y": 128,
           "zOrder": 51,
           "numberProperties": [],
           "stringProperties": [],
@@ -30447,25 +30411,9 @@
           "name": "Luva",
           "persistentUuid": "ae719420-9e4f-445d-b786-6c83912ef997",
           "width": 0,
-          "x": 5184,
-          "y": 704,
+          "x": 4800,
+          "y": 640,
           "zOrder": 52,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 128,
-          "layer": "",
-          "locked": false,
-          "name": "Alcool_Gel",
-          "persistentUuid": "96b1757c-d84e-4f32-9530-403b2dcc0ab0",
-          "width": 128,
-          "x": 5760,
-          "y": 128,
-          "zOrder": 53,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -30665,7 +30613,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 960,
+          "height": 320,
           "layer": "",
           "locked": false,
           "name": "Trigger_quiz",
@@ -30673,7 +30621,7 @@
           "width": 64,
           "x": 6144,
           "y": 0,
-          "zOrder": 106,
+          "zOrder": 30,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -30702,7 +30650,7 @@
           "locked": false,
           "name": "Plat_DirtRock",
           "persistentUuid": "60e89280-4fd8-41b2-abd5-97a6938dce35",
-          "width": 128,
+          "width": 192,
           "x": 6976,
           "y": -64,
           "zOrder": 107,
@@ -30721,7 +30669,779 @@
           "width": 192,
           "x": 6976,
           "y": -320,
-          "zOrder": 108,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Plat1",
+          "persistentUuid": "ee07ce5b-3b8c-4de2-8acc-27b897006a13",
+          "width": 640,
+          "x": -2240,
+          "y": 640,
+          "zOrder": 110,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Plat1",
+          "persistentUuid": "e7ef9d89-b34a-4a3c-bf44-a1c7bb0478b3",
+          "width": 128,
+          "x": -2560,
+          "y": 832,
+          "zOrder": 111,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "Mask",
+          "persistentUuid": "34c61a29-e772-49d7-bf54-a497f96423db",
+          "width": 128,
+          "x": -1664,
+          "y": 448,
+          "zOrder": 112,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 512,
+          "layer": "",
+          "locked": false,
+          "name": "Plat1",
+          "persistentUuid": "03061039-a925-40c0-a236-642201ccbf9f",
+          "width": 128,
+          "x": -1280,
+          "y": 448,
+          "zOrder": 113,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Virus",
+          "persistentUuid": "b27bfb79-c586-4c93-a4d6-f6e8fbdcc96c",
+          "width": 128,
+          "x": -1664,
+          "y": 64,
+          "zOrder": 115,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Trigger_d",
+          "persistentUuid": "083ffac9-990f-4b1f-b897-e8a623ef881c",
+          "width": 0,
+          "x": -1088,
+          "y": 943,
+          "zOrder": 116,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Trigger_u",
+          "persistentUuid": "4cfa1af3-410a-47b2-961f-a31204cc61cb",
+          "width": 0,
+          "x": -1088,
+          "y": -43,
+          "zOrder": 117,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Virus_Vertical",
+          "persistentUuid": "c1ce36a7-c9d6-4010-ac55-163d94c60deb",
+          "width": 128,
+          "x": -1088,
+          "y": 64,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Trigger_u",
+          "persistentUuid": "f0105402-f8d3-4231-a595-ca60f20766c4",
+          "width": 0,
+          "x": -896,
+          "y": -44,
+          "zOrder": 119,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Trigger_d",
+          "persistentUuid": "23323bb0-9f3b-45b4-acfe-5458f6e9b332",
+          "width": 0,
+          "x": -896,
+          "y": 943,
+          "zOrder": 120,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Virus_Vertical",
+          "persistentUuid": "01017ebe-18d5-4de1-9a39-dbf647b70c5b",
+          "width": 128,
+          "x": -896,
+          "y": 768,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Trigger_u",
+          "persistentUuid": "7531fa6c-3754-488a-a02c-73486216a160",
+          "width": 0,
+          "x": -694,
+          "y": -40,
+          "zOrder": 119,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Virus_Vertical",
+          "persistentUuid": "bd316d82-1760-40b6-a760-93927b701ef9",
+          "width": 128,
+          "x": -704,
+          "y": 384,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Trigger_d",
+          "persistentUuid": "76d892e3-b9c1-4151-9115-abc0b37aa43a",
+          "width": 0,
+          "x": -704,
+          "y": 943,
+          "zOrder": 120,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Luva",
+          "persistentUuid": "7e01a03f-acd3-4771-aa3e-09e068119a52",
+          "width": 0,
+          "x": -896,
+          "y": 320,
+          "zOrder": 121,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Virus_Horizontal",
+          "persistentUuid": "5a28d0d2-2567-4154-8da5-160df2595b79",
+          "width": 128,
+          "x": -64,
+          "y": 832,
+          "zOrder": 122,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Speed",
+              "value": "200"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Trigger_r",
+          "persistentUuid": "ed6cfc17-d99d-4548-8b74-c0acc062d934",
+          "width": 0,
+          "x": 1132,
+          "y": 896,
+          "zOrder": 123,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Trigger_l",
+          "persistentUuid": "2e1aa31a-a4bb-4eb1-bfbe-4a443db7d644",
+          "width": 0,
+          "x": -171,
+          "y": 896,
+          "zOrder": 124,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Plat1",
+          "persistentUuid": "e1eca7c7-5054-499f-b85e-ec85ed1db5a7",
+          "width": 256,
+          "x": 384,
+          "y": 512,
+          "zOrder": 125,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Plat1",
+          "persistentUuid": "4effd760-2f6c-4f7c-af37-803c5ebd3a27",
+          "width": 128,
+          "x": 1152,
+          "y": 832,
+          "zOrder": 56,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Alcool_Gel",
+          "persistentUuid": "4b58565e-7a24-470f-8d25-d3c486575f16",
+          "width": 128,
+          "x": 320,
+          "y": 192,
+          "zOrder": 127,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Virus_Horizontal",
+          "persistentUuid": "c7e7ccba-b6f0-4ea5-a66f-f3777c254790",
+          "width": 128,
+          "x": 960,
+          "y": 832,
+          "zOrder": 122,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Speed",
+              "value": "200"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Plat1",
+          "persistentUuid": "7fd5dea8-5c32-4f99-b4f9-3f436c3e2c6d",
+          "width": 384,
+          "x": -2112,
+          "y": 512,
+          "zOrder": 128,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Plat1",
+          "persistentUuid": "af956332-98a8-4f15-a3c0-2ec95362b960",
+          "width": 384,
+          "x": -1792,
+          "y": 256,
+          "zOrder": 130,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Plat1",
+          "persistentUuid": "d75cb187-4e8e-441a-96df-9ff2ee1d27ec",
+          "width": 256,
+          "x": -1984,
+          "y": 384,
+          "zOrder": 132,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Virus",
+          "persistentUuid": "3c2ff69d-f9b7-44fe-bb59-5ea4314b5ead",
+          "width": 128,
+          "x": 3008,
+          "y": 320,
+          "zOrder": 56,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Virus",
+          "persistentUuid": "92f49821-c501-45a7-b56b-0d0ac08a2f8a",
+          "width": 128,
+          "x": 832,
+          "y": 256,
+          "zOrder": 133,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Virus",
+          "persistentUuid": "0852c8fd-3ba8-4b15-8171-4953987869da",
+          "width": 128,
+          "x": 1536,
+          "y": 576,
+          "zOrder": 134,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Virus",
+          "persistentUuid": "e31b28bf-1730-4320-9eea-999bb5abc793",
+          "width": 128,
+          "x": 4352,
+          "y": 256,
+          "zOrder": 135,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "Mask",
+          "persistentUuid": "3312deb0-affc-413d-83a0-e5c6c1e15201",
+          "width": 128,
+          "x": 4800,
+          "y": 128,
+          "zOrder": 136,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Plat1",
+          "persistentUuid": "991348eb-747a-4e8e-8290-5d2597f417b8",
+          "width": 384,
+          "x": 3776,
+          "y": 832,
+          "zOrder": 137,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Trigger_l",
+          "persistentUuid": "725437cf-d1fc-49d2-8dc4-bd092fdad5c0",
+          "width": 0,
+          "x": 4121,
+          "y": 896,
+          "zOrder": 138,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Plat1",
+          "persistentUuid": "e6ff8ffb-a3be-4c3e-a129-c2013f3d5a37",
+          "width": 256,
+          "x": 5952,
+          "y": 448,
+          "zOrder": 139,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "Plat1",
+          "persistentUuid": "f357dfec-abe0-4d02-9991-47d5ec6a7109",
+          "width": 256,
+          "x": 3328,
+          "y": -64,
+          "zOrder": 142,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "Plat1",
+          "persistentUuid": "3d49d074-1910-49e1-8e4e-529be434ee5a",
+          "width": 256,
+          "x": 2048,
+          "y": -64,
+          "zOrder": 143,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Trigger_r",
+          "persistentUuid": "791fe582-4855-4825-8851-762a7218464b",
+          "width": 0,
+          "x": 5296,
+          "y": 896,
+          "zOrder": 145,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Virus_Horizontal",
+          "persistentUuid": "9643c3f3-81d0-4788-a128-4feea30335bf",
+          "width": 128,
+          "x": 4224,
+          "y": 832,
+          "zOrder": 146,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Speed",
+              "value": "300"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Plat1",
+          "persistentUuid": "f26b9d35-1016-4cd4-8d4d-fabd35b597d9",
+          "width": 128,
+          "x": 576,
+          "y": 384,
+          "zOrder": 148,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Plat_move",
+          "persistentUuid": "3ed9c018-d392-484a-b54a-d90a49e856ee",
+          "width": 256,
+          "x": 4160,
+          "y": 384,
+          "zOrder": 149,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Direction",
+              "value": "Right"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Trigger_l",
+          "persistentUuid": "0d720b45-29bd-4355-bdde-62da8c158e73",
+          "width": 0,
+          "x": 3973,
+          "y": 384,
+          "zOrder": 150,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Virus",
+          "persistentUuid": "42e0cfd1-d8c3-428f-bd39-c8a4567d5c79",
+          "width": 128,
+          "x": 4992,
+          "y": 512,
+          "zOrder": 147,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Virus",
+          "persistentUuid": "fcf8c0bb-58b5-4bbd-b453-6e3d2dd826f6",
+          "width": 128,
+          "x": 4544,
+          "y": 512,
+          "zOrder": 147,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Virus",
+          "persistentUuid": "af2d6e3f-3573-46bb-abc8-831be7e6e5e4",
+          "width": 128,
+          "x": 5056,
+          "y": 256,
+          "zOrder": 147,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Trigger_r",
+          "persistentUuid": "d3760b9d-eb26-41f2-8fb3-d74ddd2e78e7",
+          "width": 0,
+          "x": 5480,
+          "y": 384,
+          "zOrder": 151,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "Mask",
+          "persistentUuid": "2d02de24-2571-4e1d-aaed-e2968b50ed6c",
+          "width": 128,
+          "x": 1536,
+          "y": 128,
+          "zOrder": 152,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Plat1",
+          "persistentUuid": "13b5d2e1-ac29-49e8-8ce3-77525beae4de",
+          "width": 256,
+          "x": -1408,
+          "y": 320,
+          "zOrder": 153,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Plat1",
+          "persistentUuid": "7f6d2172-fe5d-4408-9a82-9c0dca8e3d26",
+          "width": 128,
+          "x": 6080,
+          "y": 320,
+          "zOrder": 154,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -30755,6 +31475,24 @@
           "width": 128,
           "variables": [],
           "behaviors": []
+        },
+        {
+          "height": 64,
+          "name": "Plat_move",
+          "tags": "",
+          "texture": "Metal_case-1.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 64,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
         },
         {
           "height": 64,
@@ -31684,7 +32422,7 @@
               "colorR": 74,
               "creationTime": 0,
               "disabled": false,
-              "folded": true,
+              "folded": false,
               "name": "Boy",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -32383,7 +33121,7 @@
               "colorR": 74,
               "creationTime": 0,
               "disabled": false,
-              "folded": true,
+              "folded": false,
               "name": "Girl",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -33082,7 +33820,7 @@
               "colorR": 74,
               "creationTime": 0,
               "disabled": false,
-              "folded": true,
+              "folded": false,
               "name": "Enemies",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -33115,7 +33853,7 @@
                       "parameters": [
                         "Virus_Vertical",
                         "0",
-                        "-200",
+                        "-300",
                         ""
                       ],
                       "subInstructions": []
@@ -33200,7 +33938,7 @@
                       "parameters": [
                         "Virus_Vertical",
                         "0",
-                        "200",
+                        "300",
                         ""
                       ],
                       "subInstructions": []
@@ -33284,7 +34022,7 @@
                       },
                       "parameters": [
                         "Virus_Horizontal",
-                        "-200",
+                        "-Virus_Horizontal.Variable(Speed)",
                         "0",
                         ""
                       ],
@@ -33369,7 +34107,7 @@
                       },
                       "parameters": [
                         "Virus_Horizontal",
-                        "200",
+                        "Virus_Horizontal.Variable(Speed)",
                         "0",
                         ""
                       ],
@@ -33726,6 +34464,154 @@
                 }
               ],
               "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "Plat_move",
+                    "Direction",
+                    "=",
+                    "\"Right\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AddForceXY"
+                  },
+                  "parameters": [
+                    "Plat_move",
+                    "-300",
+                    "0",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Plat_move",
+                        "Trigger_l",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "Plat_move",
+                        "Direction",
+                        "=",
+                        "\"Left\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "Plat_move",
+                    "Direction",
+                    "=",
+                    "\"Left\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AddForceXY"
+                  },
+                  "parameters": [
+                    "Plat_move",
+                    "300",
+                    "0",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Plat_move",
+                        "Trigger_r",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "Plat_move",
+                        "Direction",
+                        "=",
+                        "\"Right\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             }
           ],
           "parameters": []
@@ -33765,7 +34651,7 @@
                   },
                   "parameters": [
                     "",
-                    "Park_quiz.json"
+                    "Hospital_quiz.json"
                   ],
                   "subInstructions": []
                 },
@@ -34613,6 +35499,14 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
         }
       ],
       "layers": [

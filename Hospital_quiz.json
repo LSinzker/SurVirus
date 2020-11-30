@@ -1,0 +1,22 @@
+[
+	{
+		"title": "Start",
+		"tags": "",
+		"body": "Hospital:",
+		"position": {
+			"x": 825,
+			"y": 170
+		},
+		"colorID": 1
+	},
+	{
+		"title": "exit",
+		"tags": "",
+		"body": "> Continuar",
+		"position": {
+			"x": 820,
+			"y": 456
+		},
+		"colorID": 0
+	}
+]
