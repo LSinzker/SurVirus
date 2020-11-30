@@ -2800,6 +2800,15 @@
         "metadata": "",
         "name": "Park_quiz.json",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Trigger2-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Trigger2-1.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -13391,6 +13400,45 @@
       ]
     },
     {
+      "name": "Trigger_aux",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Quiz_trigger",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Quiz_trigger-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "Trigger_l",
       "tags": "",
       "type": "Sprite",
@@ -14567,15 +14615,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 99,
           "layer": "",
           "locked": false,
           "name": "Luva",
           "persistentUuid": "78c2e5cc-cb53-481d-8766-490154b7185a",
-          "width": 0,
-          "x": 2780,
-          "y": 386,
+          "width": 80,
+          "x": 2752,
+          "y": 384,
           "zOrder": 42,
           "numberProperties": [],
           "stringProperties": [],
@@ -24095,7 +24143,7 @@
         "gridWidth": 64,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.372
+        "zoomFactor": 0.364
       },
       "objectsGroups": [],
       "variables": [
@@ -24109,6 +24157,10 @@
         },
         {
           "name": "State",
+          "value": "0"
+        },
+        {
+          "name": "EnemyTrigger",
           "value": "0"
         }
       ],
@@ -24154,7 +24206,7 @@
           "name": "PlayerGirl",
           "persistentUuid": "700b1ec7-47aa-430b-91b7-079a709aa2b0",
           "width": 192,
-          "x": -4160,
+          "x": -4224,
           "y": 128,
           "zOrder": 50,
           "numberProperties": [],
@@ -24233,9 +24285,9 @@
           "locked": false,
           "name": "Play_main",
           "persistentUuid": "3d295dcb-b7ca-42cd-a2ce-778cd5e0c8fd",
-          "width": 832,
+          "width": 960,
           "x": -3584,
-          "y": 640,
+          "y": 704,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -24265,7 +24317,7 @@
           "locked": false,
           "name": "Play_main",
           "persistentUuid": "f4f3eb69-a895-4e46-bc0d-f0e7ba7be123",
-          "width": 768,
+          "width": 640,
           "x": -1856,
           "y": 320,
           "zOrder": 28,
@@ -24281,8 +24333,8 @@
           "locked": false,
           "name": "Play_main",
           "persistentUuid": "9cad61b6-6e33-4b8d-902b-3fa136447e24",
-          "width": 256,
-          "x": -1088,
+          "width": 320,
+          "x": -1216,
           "y": 192,
           "zOrder": 29,
           "numberProperties": [],
@@ -24570,7 +24622,7 @@
           "name": "Trigger_quiz",
           "persistentUuid": "333f05bc-8259-43a6-987b-d98b994c3243",
           "width": 64,
-          "x": 4544,
+          "x": 4992,
           "y": 0,
           "zOrder": 59,
           "numberProperties": [],
@@ -24621,6 +24673,1062 @@
           "x": 0,
           "y": 0,
           "zOrder": 59,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Play_main",
+          "persistentUuid": "3bd1f0e5-9e6e-429e-92f6-f86d6318ab37",
+          "width": 512,
+          "x": -896,
+          "y": 576,
+          "zOrder": 64,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Play_main",
+          "persistentUuid": "8a22798c-cf39-4515-969f-616e65eccc47",
+          "width": 512,
+          "x": -3136,
+          "y": 576,
+          "zOrder": 66,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Play_main",
+          "persistentUuid": "8cf765c7-6c98-42ab-aa5f-a3cee3765375",
+          "width": 1536,
+          "x": -3712,
+          "y": 832,
+          "zOrder": 67,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Virus",
+          "persistentUuid": "b2ecf0b5-4f1b-43c9-83fd-397c8f576dac",
+          "width": 128,
+          "x": -2080,
+          "y": 245,
+          "zOrder": 69,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Alcool_Gel",
+          "persistentUuid": "82f7d30d-6717-499a-850d-3e3c61cb9576",
+          "width": 128,
+          "x": -2496,
+          "y": 512,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Virus_Vertical",
+          "persistentUuid": "504dd115-efe1-4e09-8924-e10b184c8fc6",
+          "width": 128,
+          "x": -1536,
+          "y": 640,
+          "zOrder": 71,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Trigger_u",
+          "persistentUuid": "fe63f984-5a3b-44f8-a246-be8200213e70",
+          "width": 0,
+          "x": -1493,
+          "y": 399,
+          "zOrder": 72,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Trigger_d",
+          "persistentUuid": "b39f0782-25a1-4379-9fe9-775d8df1e4ca",
+          "width": 0,
+          "x": -1495,
+          "y": 945,
+          "zOrder": 73,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Luva",
+          "persistentUuid": "60f22029-294f-45e3-94ed-99e9a98dddcd",
+          "width": 0,
+          "x": -640,
+          "y": 768,
+          "zOrder": 74,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 256,
+          "layer": "",
+          "locked": false,
+          "name": "Play_main",
+          "persistentUuid": "a1ea18f4-f262-469f-bdf6-42df4b3aaef7",
+          "width": 128,
+          "x": -512,
+          "y": 704,
+          "zOrder": 75,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Play_main",
+          "persistentUuid": "cf79fd0f-ca15-420b-adb9-42e3d2df53b2",
+          "width": 640,
+          "x": 0,
+          "y": 640,
+          "zOrder": 76,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Play_main",
+          "persistentUuid": "d59452e2-27d7-46ee-a7da-0c8aad96d65e",
+          "width": 640,
+          "x": 512,
+          "y": 384,
+          "zOrder": 77,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Play_main",
+          "persistentUuid": "c0a6f677-e417-4cd4-b486-0b96de8cf7b0",
+          "width": 384,
+          "x": 256,
+          "y": 512,
+          "zOrder": 78,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Play_main",
+          "persistentUuid": "11e54881-8ed2-4b14-90c5-99bf598feb89",
+          "width": 896,
+          "x": 1088,
+          "y": 832,
+          "zOrder": 79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Play_main",
+          "persistentUuid": "7f059354-75b8-4cf0-87b7-541659096f65",
+          "width": 640,
+          "x": 1344,
+          "y": 704,
+          "zOrder": 80,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Play_main",
+          "persistentUuid": "7e428e16-8184-4394-848c-1ff9f22759ea",
+          "width": 512,
+          "x": 1152,
+          "y": 256,
+          "zOrder": 82,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Play_main",
+          "persistentUuid": "0e4940e5-596e-4699-ad40-a1f4c723419b",
+          "width": 1152,
+          "x": 2560,
+          "y": 384,
+          "zOrder": 83,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Virus",
+          "persistentUuid": "c1c72aa8-394d-4639-b29b-0ffad3622b71",
+          "width": 128,
+          "x": 960,
+          "y": 768,
+          "zOrder": 84,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "Mask",
+          "persistentUuid": "8fdc6334-c799-4a18-8cff-2e72041084e1",
+          "width": 128,
+          "x": 704,
+          "y": 640,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Alcool_Gel",
+          "persistentUuid": "8144d0aa-8332-40a6-8aec-b944ca57e9bc",
+          "width": 128,
+          "x": 2432,
+          "y": 64,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Virus_Horizontal",
+          "persistentUuid": "0cd4a21b-9acd-4cca-aa99-e865019ea171",
+          "width": 128,
+          "x": 3264,
+          "y": 832,
+          "zOrder": 87,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Trigger_l",
+          "persistentUuid": "0b1251ba-9b15-4a20-be63-8e67ad5d61c2",
+          "width": 0,
+          "x": 1960,
+          "y": 832,
+          "zOrder": 88,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Trigger_r",
+          "persistentUuid": "39451961-6309-44f7-9403-23cb0f82543c",
+          "width": 0,
+          "x": 3941,
+          "y": 897,
+          "zOrder": 89,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Play_main",
+          "persistentUuid": "3c76e645-2c48-4780-b3e9-c36706be14be",
+          "width": 128,
+          "x": 3968,
+          "y": 832,
+          "zOrder": 90,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Virus",
+          "persistentUuid": "89aedaeb-ae74-417b-aced-cbf0cc86d064",
+          "width": 128,
+          "x": 2944,
+          "y": 512,
+          "zOrder": 92,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Virus_Horizontal",
+          "persistentUuid": "76859a15-ce13-4a7a-88e6-443a6f069135",
+          "width": 128,
+          "x": 3776,
+          "y": 832,
+          "zOrder": 93,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 110,
+          "layer": "",
+          "locked": false,
+          "name": "Luva",
+          "persistentUuid": "8266fc7f-3ebe-4ece-92ce-00af4877e4a8",
+          "width": 82,
+          "x": 2368,
+          "y": 576,
+          "zOrder": 94,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "Mask",
+          "persistentUuid": "4de5c7a5-33b8-43bc-a91e-a5e56127ee80",
+          "width": 128,
+          "x": 3328,
+          "y": 576,
+          "zOrder": 95,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Virus",
+          "persistentUuid": "7eb41550-b286-4e6d-80eb-ed8d91a78740",
+          "width": 128,
+          "x": 3008,
+          "y": 192,
+          "zOrder": 96,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Virus",
+          "persistentUuid": "a26382b8-1268-4b70-8bbe-2ed686017773",
+          "width": 128,
+          "x": 1344,
+          "y": 64,
+          "zOrder": 98,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Virus",
+          "persistentUuid": "b3059065-88ba-4711-9172-009752d82475",
+          "width": 128,
+          "x": 320,
+          "y": 320,
+          "zOrder": 99,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Virus",
+          "persistentUuid": "3af90303-1221-4fd9-b0e6-6e89c6b15f44",
+          "width": 128,
+          "x": -1536,
+          "y": 128,
+          "zOrder": 100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Virus",
+          "persistentUuid": "f04dcdfc-f9a3-4ad3-8815-688fe2f8d059",
+          "width": 128,
+          "x": -3008,
+          "y": 448,
+          "zOrder": 101,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Virus",
+          "persistentUuid": "41f328be-aca1-4cc8-becf-1c848169ba61",
+          "width": 128,
+          "x": -3520,
+          "y": 384,
+          "zOrder": 102,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Virus",
+          "persistentUuid": "087c3af1-4e96-41f4-b524-1ed4547f9251",
+          "width": 128,
+          "x": -2112,
+          "y": 768,
+          "zOrder": 102,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Virus",
+          "persistentUuid": "23315c2b-3b0e-4748-a467-8e0ddee01222",
+          "width": 128,
+          "x": 832,
+          "y": 192,
+          "zOrder": 103,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Virus",
+          "persistentUuid": "74878e08-2917-464a-8038-f543f2a84311",
+          "width": 128,
+          "x": 2368,
+          "y": 832,
+          "zOrder": 104,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "Mask",
+          "persistentUuid": "4c793729-73d8-486f-b9fd-d8c30bea59b1",
+          "width": 128,
+          "x": -3392,
+          "y": 192,
+          "zOrder": 105,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Play_main",
+          "persistentUuid": "4175cfcd-4d24-4421-9100-627ce3d11c67",
+          "width": 128,
+          "x": -1216,
+          "y": 832,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Play_main",
+          "persistentUuid": "bc56348e-bcc9-4070-ac1e-a686494764f1",
+          "width": 256,
+          "x": -640,
+          "y": 448,
+          "zOrder": 107,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 256,
+          "layer": "",
+          "locked": false,
+          "name": "Play_main",
+          "persistentUuid": "b04444d5-2fde-4386-89bd-bc21d32495cb",
+          "width": 128,
+          "x": -512,
+          "y": 192,
+          "zOrder": 108,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Play_main",
+          "persistentUuid": "0c1029d4-ab15-4e44-98c8-400c12bde1db",
+          "width": 64,
+          "x": -384,
+          "y": 192,
+          "zOrder": 109,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 320,
+          "layer": "",
+          "locked": false,
+          "name": "Trigger_aux",
+          "persistentUuid": "337e5994-5eba-4e4e-97f4-848013019c90",
+          "width": 64,
+          "x": 1984,
+          "y": 320,
+          "zOrder": 111,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "Trigger_aux",
+          "persistentUuid": "6de845d6-2bc9-4e87-aab5-ebc0c108b527",
+          "width": 512,
+          "x": 2048,
+          "y": 448,
+          "zOrder": 112,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Alcool_Gel",
+          "persistentUuid": "e9e90bd3-f6d8-445e-8c90-8aba0a8cb864",
+          "width": 128,
+          "x": 1664,
+          "y": 448,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Play_main",
+          "persistentUuid": "5a552885-4408-4ece-9ff4-be7e5a2d494f",
+          "width": 192,
+          "x": 3584,
+          "y": 256,
+          "zOrder": 113,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Virus",
+          "persistentUuid": "d0ef1aa0-6b0a-4024-8723-c0fa319ce86b",
+          "width": 128,
+          "x": 4608,
+          "y": 320,
+          "zOrder": 114,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Virus",
+          "persistentUuid": "4dd2c95f-1d87-4840-8087-fe08825825ca",
+          "width": 128,
+          "x": 4224,
+          "y": 640,
+          "zOrder": 115,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 256,
+          "layer": "",
+          "locked": false,
+          "name": "Play_main",
+          "persistentUuid": "b0206dc0-caf9-42a6-9cec-41d582b98eed",
+          "width": 128,
+          "x": 4096,
+          "y": 704,
+          "zOrder": 116,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Play_main",
+          "persistentUuid": "e6b700d0-c6e1-4ac7-a045-5111ef55dcfe",
+          "width": 320,
+          "x": 4480,
+          "y": 512,
+          "zOrder": 117,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 256,
+          "layer": "",
+          "locked": false,
+          "name": "Play_main",
+          "persistentUuid": "a8b9cf3c-61a4-45f4-bd7f-bd350f2d1f3f",
+          "width": 256,
+          "x": 4800,
+          "y": 384,
+          "zOrder": 119,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Virus",
+          "persistentUuid": "c1d54063-5a6f-4f01-98a9-a7f664cbefeb",
+          "width": 128,
+          "x": 4352,
+          "y": 832,
+          "zOrder": 120,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Virus",
+          "persistentUuid": "35de2059-83a7-4e66-8aa9-97ce916ba420",
+          "width": 128,
+          "x": 4736,
+          "y": 704,
+          "zOrder": 121,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Virus",
+          "persistentUuid": "be00bb77-e15e-4224-9695-f652a5840ce2",
+          "width": 128,
+          "x": 4864,
+          "y": 832,
+          "zOrder": 122,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Trigger_d",
+          "persistentUuid": "a8d712bc-39e8-42db-a38c-38031142edc7",
+          "width": 0,
+          "x": 3387,
+          "y": 945,
+          "zOrder": 123,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Virus_Vertical",
+          "persistentUuid": "231941be-7601-4e46-96c3-19729f71031e",
+          "width": 128,
+          "x": 3328,
+          "y": 768,
+          "zOrder": 124,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Trigger_u",
+          "persistentUuid": "f39e7bda-ad3e-4d9b-a9e2-2559b8922e45",
+          "width": 0,
+          "x": 3384,
+          "y": 472,
+          "zOrder": 125,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Virus",
+          "persistentUuid": "8e49100c-8479-4e50-839f-3a35f817b2ee",
+          "width": 128,
+          "x": 5184,
+          "y": 256,
+          "zOrder": 121,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Virus_Vertical",
+          "persistentUuid": "37cc64bb-1d40-47e2-8218-f580cc453545",
+          "width": 128,
+          "x": 4544,
+          "y": 768,
+          "zOrder": 127,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Trigger_d",
+          "persistentUuid": "c2c62cfd-9fb6-4b22-93e9-8f94d627d92c",
+          "width": 0,
+          "x": 4571,
+          "y": 942,
+          "zOrder": 128,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Trigger_u",
+          "persistentUuid": "933efe15-55a8-4600-be8a-bb8d9c725bee",
+          "width": 0,
+          "x": 4573,
+          "y": 592,
+          "zOrder": 129,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Play_main",
+          "persistentUuid": "da461745-12cb-4afe-9f2b-65f58f8b52a9",
+          "width": 384,
+          "x": 1664,
+          "y": 192,
+          "zOrder": 130,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "Trigger2",
+          "persistentUuid": "6b096032-7582-406e-9ed3-49c28d992ccf",
+          "width": 576,
+          "x": 2048,
+          "y": 704,
+          "zOrder": 132,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "Plat_DirtRock2",
+          "persistentUuid": "b4aede82-a1d6-4f43-9b22-7b9335516d3e",
+          "width": 128,
+          "x": 2048,
+          "y": 448,
+          "zOrder": 133,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Play_main",
+          "persistentUuid": "d198c312-0452-4894-bf82-c020a0122b72",
+          "width": 128,
+          "x": 1920,
+          "y": 576,
+          "zOrder": 134,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Virus",
+          "persistentUuid": "3d1fa0da-f2e6-4ee9-b40e-4c8d729b7961",
+          "width": 128,
+          "x": 5056,
+          "y": 448,
+          "zOrder": 135,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -24684,6 +25792,24 @@
           ]
         },
         {
+          "height": 64,
+          "name": "Plat_DirtRock2",
+          "tags": "",
+          "texture": "DirtRock.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 64,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
           "name": "Market_exit",
           "tags": "",
           "type": "Sprite",
@@ -24731,6 +25857,16 @@
           "width": 128,
           "variables": [],
           "behaviors": []
+        },
+        {
+          "height": 64,
+          "name": "Trigger2",
+          "tags": "",
+          "texture": "Trigger2-1.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 64,
+          "variables": [],
+          "behaviors": []
         }
       ],
       "events": [
@@ -24740,7 +25876,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "GUI",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -25548,7 +26684,7 @@
         },
         {
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -26923,11 +28059,43 @@
               "colorR": 74,
               "creationTime": 0,
               "disabled": false,
-              "folded": true,
+              "folded": false,
               "name": "Enemies",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
               "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "EnemyTrigger",
+                        "=",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Arreter"
+                      },
+                      "parameters": [
+                        "Virus_Horizontal"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
                 {
                   "disabled": false,
                   "folded": false,
@@ -27267,6 +28435,78 @@
                       "events": []
                     }
                   ]
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "PlayerGirl",
+                        "Trigger_aux",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "EnemyTrigger",
+                        "=",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "PlayerBoy",
+                        "Trigger_aux",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "EnemyTrigger",
+                        "=",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
                 }
               ],
               "parameters": []
@@ -27279,11 +28519,43 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Control",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Plat_DirtRock2",
+                    "Platform",
+                    "no"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
             {
               "disabled": false,
               "folded": false,
@@ -27319,16 +28591,7 @@
                     "Trigger_u"
                   ],
                   "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
+                },
                 {
                   "type": {
                     "inverted": false,
@@ -27338,16 +28601,7 @@
                     "Trigger_d"
                   ],
                   "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
+                },
                 {
                   "type": {
                     "inverted": false,
@@ -27357,16 +28611,7 @@
                     "Trigger_r"
                   ],
                   "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
+                },
                 {
                   "type": {
                     "inverted": false,
@@ -27374,6 +28619,36 @@
                   },
                   "parameters": [
                     "Trigger_l"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Trigger_aux"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Plat_DirtRock2"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Trigger2"
                   ],
                   "subInstructions": []
                 }
@@ -27587,6 +28862,78 @@
                 }
               ],
               "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "PlayerGirl",
+                    "Trigger2",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Plat_DirtRock2",
+                    "Platform",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "PlayerBoy",
+                    "Trigger2",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Plat_DirtRock2",
+                    "Platform",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
             }
           ],
           "parameters": []
@@ -27597,7 +28944,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Quiz",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -28469,14 +29816,6 @@
             }
           ],
           "parameters": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
-          "events": []
         }
       ],
       "layers": [
