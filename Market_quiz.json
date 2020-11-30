@@ -12,7 +12,7 @@
 	{
 		"title": "q1Yes",
 		"tags": "",
-		"body": "Muito bem!\nA propagação de vírus e menor em locais abertos! [[Answer:Mask|Mask]]",
+		"body": "Muito bem!\nA propagação de vírus e menor em locais abertos!\n[[Answer:Mask|Mask]]",
 		"position": {
 			"x": 393,
 			"y": -2
@@ -22,10 +22,10 @@
 	{
 		"title": "q1No",
 		"tags": "",
-		"body": "Se puder, tente mudar isso e procure frequêntar locais mais arejados o possível.\nA propagação de vírus e menor em locais abertos! Como feiras ao ar livre. [[Answer:Mask|Mask]]",
+		"body": "Se puder, tente mudar isso e procure frequêntar locais mais arejados o possível.\nA propagação de vírus e menor em locais abertos! Como feiras ao ar livre.\n[[Answer:Mask|Mask]]",
 		"position": {
 			"x": 1005,
-			"y": 16
+			"y": 15
 		},
 		"colorID": 0
 	},
@@ -42,20 +42,20 @@
 	{
 		"title": "q2Yes",
 		"tags": "",
-		"body": "Muito bem! Essa é a forma correta de se usar esta EPI.\n[[Continuar|exit]]",
+		"body": "Muito bem! Essa é a forma correta de se usar esta EPI.\n> Continuar\n[[Answer:exit|exit]]",
 		"position": {
 			"x": 390,
-			"y": 408
+			"y": 406
 		},
 		"colorID": 0
 	},
 	{
 		"title": "q2No",
 		"tags": "",
-		"body": "Essa não é a forma correta de usar a máscara!\nÉ importante que todos usem as EPIs corretamente!\nMáscaras de proteção diminuem a quantidade de gotículas...\ne a distância em que se propagam!\n[[Continuar| exit]]",
+		"body": "Essa não é a forma correta de usar a máscara!\nÉ importante que todos usem as EPIs corretamente!\nMáscaras de proteção diminuem a quantidade de gotículas...\ne a distância em que se propagam!\nPara isso precisam cobrir a boca e o nariz!\n> Continuar\n[[Answer:exit|exit]]",
 		"position": {
 			"x": 976,
-			"y": 419
+			"y": 417
 		},
 		"colorID": 0
 	},

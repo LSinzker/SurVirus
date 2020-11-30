@@ -2788,22 +2788,6 @@
       },
       {
         "disablePreload": false,
-        "file": "Park_quiz.json",
-        "kind": "json",
-        "metadata": "",
-        "name": "Park_quiz.json",
-        "userAdded": false
-      },
-      {
-        "disablePreload": false,
-        "file": "Market_quiz.json",
-        "kind": "json",
-        "metadata": "",
-        "name": "Market_quiz.json",
-        "userAdded": false
-      },
-      {
-        "disablePreload": false,
         "file": "NewFile.json",
         "kind": "json",
         "metadata": "",
@@ -2816,6 +2800,22 @@
         "kind": "json",
         "metadata": "",
         "name": "Hospital_quiz.json",
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "Park_quiz.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "Park_quiz.json",
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "Market_quiz.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "Market_quiz.json",
         "userAdded": false
       }
     ],
@@ -30156,7 +30156,7 @@
           "name": "Plat1",
           "persistentUuid": "f8720bf6-4622-4324-947f-fd21ad16f44b",
           "width": 128,
-          "x": 2369,
+          "x": 2433,
           "y": 448,
           "zOrder": 36,
           "numberProperties": [],
@@ -34785,21 +34785,6 @@
                 }
               ],
               "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "TODO: Hospital_quiz.json",
-              "comment2": ""
             },
             {
               "disabled": false,

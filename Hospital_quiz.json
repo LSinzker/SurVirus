@@ -2,10 +2,10 @@
 	{
 		"title": "Start",
 		"tags": "",
-		"body": "Hospital:",
+		"body": "Com ou sem pandemia é importante higienizar as mãos.\nPassar álcool em gel nas mãos é o bastante para higienizá-las?\n[[Sim|q1Yes]]\n[[Não|q1No]]",
 		"position": {
-			"x": 825,
-			"y": 170
+			"x": 782,
+			"y": -45
 		},
 		"colorID": 1
 	},
@@ -14,8 +14,58 @@
 		"tags": "",
 		"body": "> Continuar",
 		"position": {
-			"x": 820,
-			"y": 456
+			"x": 769,
+			"y": 635
+		},
+		"colorID": 0
+	},
+	{
+		"title": "q1Yes",
+		"tags": "",
+		"body": "Errado!\nÁlcool em gel ajuda na higienização.\nMas não substitui lavar as mãos com água e sabão!\nUtilize álcool em gel apenas quando não houver outra opção.\n[[Answer:Node7|Node7]]",
+		"position": {
+			"x": 528,
+			"y": 151
+		},
+		"colorID": 0
+	},
+	{
+		"title": "q1No",
+		"tags": "",
+		"body": "Isso mesmo. Álcool em gel ajuda na higienização.\nMas não substitui lavar as mãos com água e sabão!\n[[Answer:Node7|Node7]]",
+		"position": {
+			"x": 1038,
+			"y": 162
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node7",
+		"tags": "",
+		"body": "Você procura manter 1 metro de distância de outras pessoas com quem não convive?\n[[Sim|q2Yes]]\n[[Não|q2No]]",
+		"position": {
+			"x": 772,
+			"y": 361
+		},
+		"colorID": 0
+	},
+	{
+		"title": "q2Yes",
+		"tags": "",
+		"body": "Muito bem!\nQuanto maior a distância mais dificil é a propagação do vírus.\n> Continuar\n[[Answer:Continuar|exit]]",
+		"position": {
+			"x": 477,
+			"y": 473
+		},
+		"colorID": 0
+	},
+	{
+		"title": "q2No",
+		"tags": "",
+		"body": "Respeite o próximo mantendo distância!\nTente manter pelo menos 1 metro de distância de pessoas com quem não convive!\nQuanto maior a distância mais dificil é a propagação do vírus.\n> Continuar\n[[Answer:Continuar|exit]]",
+		"position": {
+			"x": 1088,
+			"y": 490
 		},
 		"colorID": 0
 	}
