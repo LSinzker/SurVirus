@@ -2786,11 +2786,12 @@
         "userAdded": true
       },
       {
-        "disablePreload": false,
-        "file": "Market_quiz.json",
-        "kind": "json",
+        "alwaysLoaded": false,
+        "file": "Trigger2-1.png",
+        "kind": "image",
         "metadata": "",
-        "name": "Market_quiz.json",
+        "name": "Trigger2-1.png",
+        "smoothed": true,
         "userAdded": false
       },
       {
@@ -2799,15 +2800,14 @@
         "kind": "json",
         "metadata": "",
         "name": "Park_quiz.json",
-        "userAdded": true
+        "userAdded": false
       },
       {
-        "alwaysLoaded": false,
-        "file": "Trigger2-1.png",
-        "kind": "image",
+        "disablePreload": false,
+        "file": "Market_quiz.json",
+        "kind": "json",
         "metadata": "",
-        "name": "Trigger2-1.png",
-        "smoothed": true,
+        "name": "Market_quiz.json",
         "userAdded": false
       }
     ],
@@ -15857,7 +15857,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "GUI",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -18741,7 +18741,7 @@
             },
             {
               "disabled": false,
-              "folded": true,
+              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -18833,7 +18833,7 @@
               "events": [
                 {
                   "disabled": false,
-                  "folded": true,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -18988,7 +18988,7 @@
             },
             {
               "disabled": false,
-              "folded": true,
+              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -19419,7 +19419,7 @@
             },
             {
               "disabled": false,
-              "folded": true,
+              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -24206,8 +24206,8 @@
           "name": "PlayerGirl",
           "persistentUuid": "700b1ec7-47aa-430b-91b7-079a709aa2b0",
           "width": 192,
-          "x": -4224,
-          "y": 128,
+          "x": 4736,
+          "y": 0,
           "zOrder": 50,
           "numberProperties": [],
           "stringProperties": [],
@@ -25876,7 +25876,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "GUI",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -26684,7 +26684,7 @@
         },
         {
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -28059,7 +28059,7 @@
               "colorR": 74,
               "creationTime": 0,
               "disabled": false,
-              "folded": false,
+              "folded": true,
               "name": "Enemies",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -28519,7 +28519,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Control",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -28944,7 +28944,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Quiz",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -29291,7 +29291,7 @@
             },
             {
               "disabled": false,
-              "folded": true,
+              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -29848,7 +29848,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "GUI",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": []
         }

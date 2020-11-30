@@ -2,10 +2,70 @@
 	{
 		"title": "Start",
 		"tags": "",
-		"body": "Olá novamente!",
+		"body": "Olá novamente!\nAs vezes precisamos sair de casa mesmo durante uma pandema.\nComo por exemplo: comprar mantimentos.\nQuando realizando essas atividades você dá preferência a lugares abertos?\n[[Sim|q1Yes]]\n[[Não|q1No]]",
 		"position": {
-			"x": 860,
-			"y": 372
+			"x": 708,
+			"y": -120
+		},
+		"colorID": 0
+	},
+	{
+		"title": "q1Yes",
+		"tags": "",
+		"body": "Muito bem!\nA propagação de vírus e menor em locais abertos! [[Answer:Mask|Mask]]",
+		"position": {
+			"x": 393,
+			"y": -2
+		},
+		"colorID": 0
+	},
+	{
+		"title": "q1No",
+		"tags": "",
+		"body": "Se puder, tente mudar isso e procure frequêntar locais mais arejados o possível.\nA propagação de vírus e menor em locais abertos! Como feiras ao ar livre. [[Answer:Mask|Mask]]",
+		"position": {
+			"x": 1005,
+			"y": 16
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Mask",
+		"tags": "",
+		"body": "Independente do ambiente,\né preciso tomar algumas medidas para diminuir a propagação do coronavírus.\nQuando em contato com outras pessoas você usa máscara sempre sobre o nariz e boca?\n[[Sim|q2Yes]]\n[[Não|q2No]]",
+		"position": {
+			"x": 688,
+			"y": 227
+		},
+		"colorID": 0
+	},
+	{
+		"title": "q2Yes",
+		"tags": "",
+		"body": "Muito bem! Essa é a forma correta de se usar esta EPI.\n[[Continuar|exit]]",
+		"position": {
+			"x": 390,
+			"y": 408
+		},
+		"colorID": 0
+	},
+	{
+		"title": "q2No",
+		"tags": "",
+		"body": "Essa não é a forma correta de usar a máscara!\nÉ importante que todos usem as EPIs corretamente!\nMáscaras de proteção diminuem a quantidade de gotículas...\ne a distância em que se propagam!\n[[Continuar| exit]]",
+		"position": {
+			"x": 976,
+			"y": 419
+		},
+		"colorID": 0
+	},
+	{
+		"title": "exit",
+		"tags": "",
+		"body": "> Continuar",
+		"position": {
+			"x": 705,
+			"y": 599
 		},
 		"colorID": 0
 	}
