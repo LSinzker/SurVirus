@@ -18662,7 +18662,7 @@
         "gridWidth": 64,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.4426
+        "zoomFactor": 0.3226
       },
       "objectsGroups": [],
       "variables": [
@@ -20424,7 +20424,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "GUI",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -21293,7 +21293,7 @@
               "colorR": 74,
               "creationTime": 0,
               "disabled": false,
-              "folded": true,
+              "folded": false,
               "name": "Boy",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -21571,7 +21571,7 @@
                   "colorR": 74,
                   "creationTime": 0,
                   "disabled": false,
-                  "folded": true,
+                  "folded": false,
                   "name": "Items",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -21920,7 +21920,7 @@
               "colorR": 74,
               "creationTime": 0,
               "disabled": false,
-              "folded": true,
+              "folded": false,
               "name": "Girl",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -21931,7 +21931,7 @@
                   "colorR": 74,
                   "creationTime": 0,
                   "disabled": false,
-                  "folded": true,
+                  "folded": false,
                   "name": "Movement",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -22903,7 +22903,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Control",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -23257,6 +23257,14 @@
                     "",
                     "Park_quiz.json"
                   ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "DialogueTree::ClearState"
+                  },
+                  "parameters": [],
                   "subInstructions": []
                 }
               ],
@@ -24199,7 +24207,7 @@
         "gridWidth": 64,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.364
+        "zoomFactor": 0.316
       },
       "objectsGroups": [],
       "variables": [
@@ -24233,7 +24241,7 @@
           "locked": false,
           "name": "Market1_BG",
           "persistentUuid": "6ebccc34-b23d-42e6-9400-40d6524803cf",
-          "width": 12032,
+          "width": 13440,
           "x": -4288,
           "y": 0,
           "zOrder": 1,
@@ -24329,7 +24337,7 @@
           "locked": false,
           "name": "Play_main",
           "persistentUuid": "add9ac07-94e4-4911-9eee-57566548db05",
-          "width": 1024,
+          "width": 1472,
           "x": 6720,
           "y": 512,
           "zOrder": 23,
@@ -24537,7 +24545,7 @@
           "locked": false,
           "name": "Play_main",
           "persistentUuid": "1cf70719-7466-4374-9616-e39bad8bdcd7",
-          "width": 1152,
+          "width": 1600,
           "x": 6592,
           "y": 960,
           "zOrder": 25,
@@ -25936,7 +25944,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "GUI",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -29064,11 +29072,9 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "Cache"
+                    "value": "DialogueTree::ClearState"
                   },
-                  "parameters": [
-                    "Dialog_BG"
-                  ],
+                  "parameters": [],
                   "subInstructions": []
                 },
                 {
@@ -33211,7 +33217,7 @@
               "colorR": 74,
               "creationTime": 0,
               "disabled": false,
-              "folded": true,
+              "folded": false,
               "name": "Girl",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -33222,7 +33228,7 @@
                   "colorR": 74,
                   "creationTime": 0,
                   "disabled": false,
-                  "folded": true,
+                  "folded": false,
                   "name": "Movement",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -33946,14 +33952,14 @@
               "colorR": 74,
               "creationTime": 0,
               "disabled": false,
-              "folded": true,
+              "folded": false,
               "name": "Enemies",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
               "events": [
                 {
                   "disabled": false,
-                  "folded": true,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -34038,7 +34044,7 @@
                 },
                 {
                   "disabled": false,
-                  "folded": true,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -34123,7 +34129,7 @@
                 },
                 {
                   "disabled": false,
-                  "folded": true,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -34208,7 +34214,7 @@
                 },
                 {
                   "disabled": false,
-                  "folded": true,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -34302,7 +34308,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Control",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -34789,6 +34795,14 @@
                 {
                   "type": {
                     "inverted": false,
+                    "value": "DialogueTree::ClearState"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
                     "value": "Cache"
                   },
                   "parameters": [
@@ -34843,7 +34857,7 @@
             },
             {
               "disabled": false,
-              "folded": true,
+              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {

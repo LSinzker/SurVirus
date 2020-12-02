@@ -2,7 +2,7 @@
 	{
 		"title": "Start",
 		"tags": "",
-		"body": "Olá novamente!\nAs vezes precisamos sair de casa mesmo durante uma pandema.\nComo por exemplo: comprar mantimentos.\nQuando realizando essas atividades você dá preferência a lugares abertos?\n[[Sim|q1Yes]]\n[[Não|q1No]]",
+		"body": "Olá novamente!\nAs vezes precisamos sair de casa mesmo durante uma pandema.\nComo por exemplo: para comprar mantimentos.\nQuando realizando essas atividades você dá preferência a lugares abertos?\n[[Sim|q1Yes]]\n[[Não|q1No]]",
 		"position": {
 			"x": 708,
 			"y": -120
