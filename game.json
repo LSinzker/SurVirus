@@ -2793,14 +2793,6 @@
       },
       {
         "disablePreload": false,
-        "file": "Hospital_quiz.json",
-        "kind": "json",
-        "metadata": "",
-        "name": "Hospital_quiz.json",
-        "userAdded": true
-      },
-      {
-        "disablePreload": false,
         "file": "Park_quiz.json",
         "kind": "json",
         "metadata": "",
@@ -2814,6 +2806,14 @@
         "metadata": "",
         "name": "Market_quiz.json",
         "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "Hospital_quiz.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "Hospital_quiz.json",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -21057,7 +21057,7 @@
                 },
                 {
                   "disabled": false,
-                  "folded": false,
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -24055,6 +24055,18 @@
                         "3"
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlatformBehavior::IgnoreDefaultControls"
+                      },
+                      "parameters": [
+                        "PlayerGirl",
+                        "PlatformerObject",
+                        "yes"
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "events": []
@@ -24089,6 +24101,18 @@
                         "State",
                         "=",
                         "3"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlatformBehavior::IgnoreDefaultControls"
+                      },
+                      "parameters": [
+                        "PlayerBoy",
+                        "PlatformerObject",
+                        "yes"
                       ],
                       "subInstructions": []
                     }
@@ -24175,7 +24199,7 @@
         "gridWidth": 64,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.364
+        "zoomFactor": 0.164
       },
       "objectsGroups": [],
       "variables": [
@@ -24209,7 +24233,7 @@
           "locked": false,
           "name": "Market1_BG",
           "persistentUuid": "6ebccc34-b23d-42e6-9400-40d6524803cf",
-          "width": 12032,
+          "width": 13440,
           "x": -4288,
           "y": 0,
           "zOrder": 1,
@@ -24305,7 +24329,7 @@
           "locked": false,
           "name": "Play_main",
           "persistentUuid": "add9ac07-94e4-4911-9eee-57566548db05",
-          "width": 1024,
+          "width": 1472,
           "x": 6720,
           "y": 512,
           "zOrder": 23,
@@ -24513,7 +24537,7 @@
           "locked": false,
           "name": "Play_main",
           "persistentUuid": "1cf70719-7466-4374-9616-e39bad8bdcd7",
-          "width": 1152,
+          "width": 1600,
           "x": 6592,
           "y": 960,
           "zOrder": 25,
@@ -26792,7 +26816,7 @@
                   "colorR": 74,
                   "creationTime": 0,
                   "disabled": false,
-                  "folded": true,
+                  "folded": false,
                   "name": "Movement",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -29196,7 +29220,7 @@
               "events": [
                 {
                   "disabled": false,
-                  "folded": true,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -29878,14 +29902,6 @@
             }
           ],
           "parameters": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
-          "events": []
         }
       ],
       "layers": [
@@ -35074,7 +35090,7 @@
             },
             {
               "disabled": false,
-              "folded": true,
+              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -35507,7 +35523,7 @@
             },
             {
               "disabled": false,
-              "folded": true,
+              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -35549,6 +35565,18 @@
                     {
                       "type": {
                         "inverted": false,
+                        "value": "PlatformBehavior::IgnoreDefaultControls"
+                      },
+                      "parameters": [
+                        "PlayerGirl",
+                        "PlatformerObject",
+                        "yes"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
                         "value": "ModVarScene"
                       },
                       "parameters": [
@@ -35585,6 +35613,18 @@
                     {
                       "type": {
                         "inverted": false,
+                        "value": "PlatformBehavior::IgnoreDefaultControls"
+                      },
+                      "parameters": [
+                        "PlayerBoy",
+                        "PlatformerObject",
+                        "yes"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
                         "value": "ModVarScene"
                       },
                       "parameters": [
@@ -35601,14 +35641,6 @@
             }
           ],
           "parameters": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
-          "events": []
         }
       ],
       "layers": [

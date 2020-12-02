@@ -2,10 +2,10 @@
 	{
 		"title": "Start",
 		"tags": "",
-		"body": "Com ou sem pandemia é importante higienizar as mãos.\nPassar álcool em gel nas mãos é o bastante para higienizá-las?\n[[Sim|q1Yes]]\n[[Não|q1No]]",
+		"body": "Tenho mais algumas perguntas para você!\nCom ou sem pandemia é importante higienizar as mãos.\nPassar álcool em gel nas mãos é o bastante para higienizá-las?\n[[Sim|q1Yes]]\n[[Não|q1No]]",
 		"position": {
 			"x": 782,
-			"y": -45
+			"y": -46
 		},
 		"colorID": 1
 	},
