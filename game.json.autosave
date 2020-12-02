@@ -2801,18 +2801,18 @@
       },
       {
         "disablePreload": false,
-        "file": "Market_quiz.json",
-        "kind": "json",
-        "metadata": "",
-        "name": "Market_quiz.json",
-        "userAdded": false
-      },
-      {
-        "disablePreload": false,
         "file": "Hospital_quiz.json",
         "kind": "json",
         "metadata": "",
         "name": "Hospital_quiz.json",
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "Market_quiz.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "Market_quiz.json",
         "userAdded": true
       }
     ],
@@ -18662,7 +18662,7 @@
         "gridWidth": 64,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.3226
+        "zoomFactor": 0.3706
       },
       "objectsGroups": [],
       "variables": [
@@ -21244,7 +21244,7 @@
         },
         {
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -21293,7 +21293,7 @@
               "colorR": 74,
               "creationTime": 0,
               "disabled": false,
-              "folded": false,
+              "folded": true,
               "name": "Boy",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -21571,7 +21571,7 @@
                   "colorR": 74,
                   "creationTime": 0,
                   "disabled": false,
-                  "folded": false,
+                  "folded": true,
                   "name": "Items",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -21920,7 +21920,7 @@
               "colorR": 74,
               "creationTime": 0,
               "disabled": false,
-              "folded": false,
+              "folded": true,
               "name": "Girl",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -21931,7 +21931,7 @@
                   "colorR": 74,
                   "creationTime": 0,
                   "disabled": false,
-                  "folded": false,
+                  "folded": true,
                   "name": "Movement",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -22903,7 +22903,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Control",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -23059,6 +23059,18 @@
                     "0"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "State",
+                    "=",
+                    "4"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "actions": [
@@ -23151,6 +23163,18 @@
                     "0"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "State",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "actions": [
@@ -23169,46 +23193,10 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "PlatformBehavior::IgnoreDefaultControls"
+                    "value": "ModVarScene"
                   },
                   "parameters": [
-                    "PlayerGirl",
-                    "PlatformerObject",
-                    "yes"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PlatformBehavior::IgnoreDefaultControls"
-                  },
-                  "parameters": [
-                    "PlayerBoy",
-                    "PlatformerObject",
-                    "yes"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "PlayerGirl",
-                    "=",
-                    "4"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "PlayerBoy",
+                    "State",
                     "=",
                     "4"
                   ],
@@ -23226,7 +23214,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Quiz",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -24013,7 +24001,7 @@
             },
             {
               "disabled": false,
-              "folded": false,
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -24131,6 +24119,76 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "State",
+                "=",
+                "4"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "PlayerGirl",
+                "=",
+                "4"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "PlayerBoy",
+                "=",
+                "4"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlatformBehavior::IgnoreDefaultControls"
+              },
+              "parameters": [
+                "PlayerGirl",
+                "PlatformerObject",
+                "yes"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlatformBehavior::IgnoreDefaultControls"
+              },
+              "parameters": [
+                "PlayerBoy",
+                "PlatformerObject",
+                "yes"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         }
       ],
       "layers": [
@@ -28599,7 +28657,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Control",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -28797,6 +28855,18 @@
                     "0"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "State",
+                    "=",
+                    "4"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "actions": [
@@ -28889,6 +28959,18 @@
                     "0"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "State",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "actions": [
@@ -28907,46 +28989,10 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "PlatformBehavior::IgnoreDefaultControls"
+                    "value": "ModVarScene"
                   },
                   "parameters": [
-                    "PlayerGirl",
-                    "PlatformerObject",
-                    "yes"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PlatformBehavior::IgnoreDefaultControls"
-                  },
-                  "parameters": [
-                    "PlayerBoy",
-                    "PlatformerObject",
-                    "yes"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "PlayerGirl",
-                    "=",
-                    "4"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "PlayerBoy",
+                    "State",
                     "=",
                     "4"
                   ],
@@ -29036,7 +29082,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Quiz",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -29908,6 +29954,84 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "State",
+                "=",
+                "4"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "PlayerGirl",
+                "=",
+                "4"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "PlayerBoy",
+                "=",
+                "4"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlatformBehavior::IgnoreDefaultControls"
+              },
+              "parameters": [
+                "PlayerGirl",
+                "PlatformerObject",
+                "yes"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlatformBehavior::IgnoreDefaultControls"
+              },
+              "parameters": [
+                "PlayerBoy",
+                "PlatformerObject",
+                "yes"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
         }
       ],
       "layers": [
@@ -29974,7 +30098,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridB": 255,
         "gridG": 180,
         "gridHeight": 64,
@@ -29982,9 +30106,9 @@
         "gridOffsetY": 0,
         "gridR": 158,
         "gridWidth": 64,
-        "snap": true,
+        "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.374
+        "zoomFactor": 0.362
       },
       "objectsGroups": [],
       "variables": [
@@ -30345,14 +30469,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 960,
+          "height": 1024,
           "layer": "",
           "locked": false,
           "name": "InfectedAreaH",
           "persistentUuid": "ffb9982b-2387-4b9f-914c-e04a78630e08",
           "width": 1664,
           "x": 1728,
-          "y": 0,
+          "y": -47,
           "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
@@ -30713,14 +30837,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 128,
+          "height": 896,
           "layer": "",
           "locked": false,
           "name": "Plate_end",
           "persistentUuid": "a097f907-bf78-4a71-9177-415856f6ccc7",
           "width": 128,
           "x": 7616,
-          "y": 832,
+          "y": 64,
           "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
@@ -31649,7 +31773,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "GUI",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -31969,6 +32093,21 @@
                   "events": []
                 }
               ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Pause",
+              "comment2": ""
             },
             {
               "disabled": false,
@@ -33217,7 +33356,7 @@
               "colorR": 74,
               "creationTime": 0,
               "disabled": false,
-              "folded": false,
+              "folded": true,
               "name": "Girl",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -33228,7 +33367,7 @@
                   "colorR": 74,
                   "creationTime": 0,
                   "disabled": false,
-                  "folded": false,
+                  "folded": true,
                   "name": "Movement",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -33531,7 +33670,7 @@
                   "colorR": 74,
                   "creationTime": 0,
                   "disabled": false,
-                  "folded": false,
+                  "folded": true,
                   "name": "Items",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -33758,7 +33897,7 @@
                   "colorR": 74,
                   "creationTime": 0,
                   "disabled": false,
-                  "folded": false,
+                  "folded": true,
                   "name": "Damage",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -33952,7 +34091,7 @@
               "colorR": 74,
               "creationTime": 0,
               "disabled": false,
-              "folded": false,
+              "folded": true,
               "name": "Enemies",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -34444,6 +34583,18 @@
                     "0"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "State",
+                    "=",
+                    "4"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "actions": [
@@ -34536,6 +34687,18 @@
                     "0"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "State",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "actions": [
@@ -34554,46 +34717,10 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "PlatformBehavior::IgnoreDefaultControls"
+                    "value": "ModVarScene"
                   },
                   "parameters": [
-                    "PlayerGirl",
-                    "PlatformerObject",
-                    "yes"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PlatformBehavior::IgnoreDefaultControls"
-                  },
-                  "parameters": [
-                    "PlayerBoy",
-                    "PlatformerObject",
-                    "yes"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "PlayerGirl",
-                    "=",
-                    "4"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "PlayerBoy",
+                    "State",
                     "=",
                     "4"
                   ],
@@ -34604,7 +34731,7 @@
             },
             {
               "disabled": false,
-              "folded": false,
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -34678,7 +34805,7 @@
             },
             {
               "disabled": false,
-              "folded": false,
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -34759,7 +34886,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Quiz",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -35655,6 +35782,84 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "State",
+                "=",
+                "4"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "PlayerGirl",
+                "=",
+                "4"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "PlayerBoy",
+                "=",
+                "4"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlatformBehavior::IgnoreDefaultControls"
+              },
+              "parameters": [
+                "PlayerGirl",
+                "PlatformerObject",
+                "yes"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlatformBehavior::IgnoreDefaultControls"
+              },
+              "parameters": [
+                "PlayerBoy",
+                "PlatformerObject",
+                "yes"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
         }
       ],
       "layers": [
