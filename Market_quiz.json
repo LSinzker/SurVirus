@@ -12,7 +12,7 @@
 	{
 		"title": "q1Yes",
 		"tags": "",
-		"body": "Muito bem!\nA propagação de vírus e menor em locais abertos!\n[[Answer:Mask|Mask]]",
+		"body": "Muito bem!\nA propagação de vírus é menor em locais abertos!\n[[Answer:Mask|Mask]]",
 		"position": {
 			"x": 393,
 			"y": -2
@@ -22,7 +22,7 @@
 	{
 		"title": "q1No",
 		"tags": "",
-		"body": "Se puder, tente mudar isso e procure frequêntar locais mais arejados o possível.\nA propagação de vírus e menor em locais abertos! Como feiras ao ar livre.\n[[Answer:Mask|Mask]]",
+		"body": "Se puder, tente mudar isso e procure frequêntar locais mais arejados o possível.\nA propagação de vírus é menor em locais abertos! Como feiras ao ar livre.\n[[Answer:Mask|Mask]]",
 		"position": {
 			"x": 1005,
 			"y": 15
